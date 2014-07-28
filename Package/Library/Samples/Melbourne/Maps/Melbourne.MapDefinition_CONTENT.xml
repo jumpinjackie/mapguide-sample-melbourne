@@ -50,16 +50,6 @@
     <Group/>
   </MapLayer>
   <MapLayer>
-    <Name>2008 Tree Canopy</Name>
-    <ResourceId>Library://Samples/Melbourne/Layers/2008 Tree Canopy.LayerDefinition</ResourceId>
-    <Selectable>true</Selectable>
-    <ShowInLegend>true</ShowInLegend>
-    <LegendLabel>2008 Tree Canopy</LegendLabel>
-    <ExpandInLegend>true</ExpandInLegend>
-    <Visible>false</Visible>
-    <Group/>
-  </MapLayer>
-  <MapLayer>
     <Name>City Circle Stops</Name>
     <ResourceId>Library://Samples/Melbourne/Layers/City Circle Stops.LayerDefinition</ResourceId>
     <Selectable>true</Selectable>

@@ -1,0 +1,6 @@
+/Package/Library/Samples/Melbourne/Data/*.dbf
+/Package/Library/Samples/Melbourne/Data/*.prj
+/Package/Library/Samples/Melbourne/Data/*.shp
+/Package/Library/Samples/Melbourne/Data/*.shx
+/Package/Library/Samples/Melbourne/Data/*.sqlite
+/SourceData/CSV/*.sqlite
