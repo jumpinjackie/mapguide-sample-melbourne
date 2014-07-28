@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MapDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" version="2.4.0" xsi:noNamespaceSchemaLocation="MapDefinition-2.4.0.xsd">
+  <Name/>
+  <CoordinateSystem>PROJCS["GDA_1994_MGA_Zone_55",GEOGCS["GCS_GDA_1994",DATUM["D_GDA_1994",SPHEROID["GRS_1980",6378137.0,298.257222101]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Transverse_Mercator"],PARAMETER["False_Easting",500000.0],PARAMETER["False_Northing",10000000.0],PARAMETER["Central_Meridian",147.0],PARAMETER["Scale_Factor",0.9996],PARAMETER["Latitude_Of_Origin",0.0],UNIT["Meter",1.0]]</CoordinateSystem>
+  <Extents>
+    <MinX>315102.42100000015</MinX>
+    <MaxX>323166.05519999965</MaxX>
+    <MinY>5808850.8143</MinY>
+    <MaxY>5817089.5709</MaxY>
+  </Extents>
+  <BackgroundColor>ffffffff</BackgroundColor>
+  <MapLayer>
+    <Name>Address Points</Name>
+    <ResourceId>Library://Samples/Melbourne/Layers/Address Points.LayerDefinition</ResourceId>
+    <Selectable>true</Selectable>
+    <ShowInLegend>true</ShowInLegend>
+    <LegendLabel>Address Points</LegendLabel>
+    <ExpandInLegend>true</ExpandInLegend>
+    <Visible>false</Visible>
+    <Group/>
+  </MapLayer>
+  <MapLayer>
+    <Name>2008 Tree Canopy</Name>
+    <ResourceId>Library://Samples/Melbourne/Layers/2008 Tree Canopy.LayerDefinition</ResourceId>
+    <Selectable>true</Selectable>
+    <ShowInLegend>true</ShowInLegend>
+    <LegendLabel>2008 Tree Canopy</LegendLabel>
+    <ExpandInLegend>true</ExpandInLegend>
+    <Visible>false</Visible>
+    <Group/>
+  </MapLayer>
+  <MapLayer>
+    <Name>City Circle Stops</Name>
+    <ResourceId>Library://Samples/Melbourne/Layers/City Circle Stops.LayerDefinition</ResourceId>
+    <Selectable>true</Selectable>
+    <ShowInLegend>true</ShowInLegend>
+    <LegendLabel>City Circle Stops</LegendLabel>
+    <ExpandInLegend>true</ExpandInLegend>
+    <Visible>true</Visible>
+    <Group/>
+  </MapLayer>
+  <MapLayer>
+    <Name>SyringeBin</Name>
+    <ResourceId>Library://Samples/Melbourne/Layers/SyringeBin.LayerDefinition</ResourceId>
+    <Selectable>true</Selectable>
+    <ShowInLegend>true</ShowInLegend>
+    <LegendLabel>Syringe Bins</LegendLabel>
+    <ExpandInLegend>true</ExpandInLegend>
+    <Visible>true</Visible>
+    <Group/>
+  </MapLayer>
+  <MapLayer>
+    <Name>City Circle Route</Name>
+    <ResourceId>Library://Samples/Melbourne/Layers/City Circle Route.LayerDefinition</ResourceId>
+    <Selectable>true</Selectable>
+    <ShowInLegend>true</ShowInLegend>
+    <LegendLabel>City Circle Route</LegendLabel>
+    <ExpandInLegend>true</ExpandInLegend>
+    <Visible>true</Visible>
+    <Group/>
+  </MapLayer>
+  <MapLayer>
+    <Name>Major Features</Name>
+    <ResourceId>Library://Samples/Melbourne/Layers/Major Features.LayerDefinition</ResourceId>
+    <Selectable>true</Selectable>
+    <ShowInLegend>true</ShowInLegend>
+    <LegendLabel>Major Features</LegendLabel>
+    <ExpandInLegend>true</ExpandInLegend>
+    <Visible>true</Visible>
+    <Group/>
+  </MapLayer>
+  <MapLayer>
+    <Name>BuildingFootprints</Name>
+    <ResourceId>Library://Samples/Melbourne/Layers/BuildingFootprints.LayerDefinition</ResourceId>
+    <Selectable>true</Selectable>
+    <ShowInLegend>true</ShowInLegend>
+    <LegendLabel>BuildingFootprints</LegendLabel>
+    <ExpandInLegend>true</ExpandInLegend>
+    <Visible>true</Visible>
+    <Group/>
+  </MapLayer>
+  <MapLayer>
+    <Name>Property Boundaries</Name>
+    <ResourceId>Library://Samples/Melbourne/Layers/Property Boundaries.LayerDefinition</ResourceId>
+    <Selectable>true</Selectable>
+    <ShowInLegend>true</ShowInLegend>
+    <LegendLabel>Property Boundaries</LegendLabel>
+    <ExpandInLegend>true</ExpandInLegend>
+    <Visible>true</Visible>
+    <Group/>
+  </MapLayer>
+  <MapLayer>
+    <Name>Municipal Boundary</Name>
+    <ResourceId>Library://Samples/Melbourne/Layers/Municipal Boundary.LayerDefinition</ResourceId>
+    <Selectable>false</Selectable>
+    <ShowInLegend>true</ShowInLegend>
+    <LegendLabel>Municipal Boundary</LegendLabel>
+    <ExpandInLegend>true</ExpandInLegend>
+    <Visible>true</Visible>
+    <Group/>
+  </MapLayer>
+  <Watermarks/>
+</MapDefinition>

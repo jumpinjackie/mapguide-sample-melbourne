@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LayerDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" version="2.4.0" xsi:noNamespaceSchemaLocation="LayerDefinition-2.4.0.xsd">
+  <VectorLayerDefinition>
+    <ResourceId>Library://Samples/Melbourne/Data/City Circle Stops.FeatureSource</ResourceId>
+    <Watermarks/>
+    <FeatureName>Default:City Circle Stops</FeatureName>
+    <FeatureNameType>FeatureClass</FeatureNameType>
+    <PropertyMapping>
+      <Name>FeatId</Name>
+      <Value>FeatId</Value>
+    </PropertyMapping>
+    <PropertyMapping>
+      <Name>MCCID_INT</Name>
+      <Value>MCCID_INT</Value>
+    </PropertyMapping>
+    <PropertyMapping>
+      <Name>MCCID_STR</Name>
+      <Value>MCCID_STR</Value>
+    </PropertyMapping>
+    <PropertyMapping>
+      <Name>NAME</Name>
+      <Value>NAME</Value>
+    </PropertyMapping>
+    <PropertyMapping>
+      <Name>XORG</Name>
+      <Value>XORG</Value>
+    </PropertyMapping>
+    <PropertyMapping>
+      <Name>XSOURCE</Name>
+      <Value>XSOURCE</Value>
+    </PropertyMapping>
+    <PropertyMapping>
+      <Name>XDATE</Name>
+      <Value>XDATE</Value>
+    </PropertyMapping>
+    <PropertyMapping>
+      <Name>STOP_NO</Name>
+      <Value>STOP_NO</Value>
+    </PropertyMapping>
+    <Geometry>Geometry</Geometry>
+    <ToolTip>Concat('Stop ', STOP_NO, '\n', NAME)</ToolTip>
+    <VectorScaleRange>
+      <CompositeTypeStyle>
+        <CompositeRule>
+          <LegendLabel/>
+          <CompositeSymbolization>
+            <SymbolInstance>
+              <ResourceId>Library://Samples/Melbourne/Symbols/Tram.SymbolDefinition</ResourceId>
+              <ParameterOverrides>
+                <Override>
+                  <SymbolName>Tram</SymbolName>
+                  <ParameterIdentifier>WIDTH</ParameterIdentifier>
+                  <ParameterValue>5</ParameterValue>
+                </Override>
+                <Override>
+                  <SymbolName>Tram</SymbolName>
+                  <ParameterIdentifier>HEIGHT</ParameterIdentifier>
+                  <ParameterValue>5</ParameterValue>
+                </Override>
+              </ParameterOverrides>
+            </SymbolInstance>
+          </CompositeSymbolization>
+        </CompositeRule>
+      </CompositeTypeStyle>
+    </VectorScaleRange>
+  </VectorLayerDefinition>
+</LayerDefinition>

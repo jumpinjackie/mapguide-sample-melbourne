@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LayerDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" version="1.0.0" xsi:noNamespaceSchemaLocation="LayerDefinition-1.0.0.xsd">
+  <VectorLayerDefinition>
+    <ResourceId>Library://Samples/Melbourne/Data/City Circle Route.FeatureSource</ResourceId>
+    <FeatureName>Default:City Circle Route</FeatureName>
+    <FeatureNameType>FeatureClass</FeatureNameType>
+    <PropertyMapping>
+      <Name>FeatId</Name>
+      <Value>FeatId</Value>
+    </PropertyMapping>
+    <PropertyMapping>
+      <Name>MCCID_INT</Name>
+      <Value>MCCID_INT</Value>
+    </PropertyMapping>
+    <PropertyMapping>
+      <Name>MCCID_STR</Name>
+      <Value>MCCID_STR</Value>
+    </PropertyMapping>
+    <PropertyMapping>
+      <Name>NAME</Name>
+      <Value>NAME</Value>
+    </PropertyMapping>
+    <PropertyMapping>
+      <Name>XORG</Name>
+      <Value>XORG</Value>
+    </PropertyMapping>
+    <PropertyMapping>
+      <Name>XSOURCE</Name>
+      <Value>XSOURCE</Value>
+    </PropertyMapping>
+    <PropertyMapping>
+      <Name>XDATE</Name>
+      <Value>XDATE</Value>
+    </PropertyMapping>
+    <PropertyMapping>
+      <Name>ROUTE_NO</Name>
+      <Value>ROUTE_NO</Value>
+    </PropertyMapping>
+    <Geometry>Geometry</Geometry>
+    <VectorScaleRange>
+      <LineTypeStyle>
+        <LineRule>
+          <LegendLabel/>
+          <LineSymbolization2D>
+            <LineStyle>Rail</LineStyle>
+            <Thickness>1</Thickness>
+            <Color>ff000000</Color>
+            <Unit>Points</Unit>
+          </LineSymbolization2D>
+        </LineRule>
+      </LineTypeStyle>
+    </VectorScaleRange>
+  </VectorLayerDefinition>
+</LayerDefinition>

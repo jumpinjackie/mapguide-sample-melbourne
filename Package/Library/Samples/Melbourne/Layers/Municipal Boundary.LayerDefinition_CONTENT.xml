@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LayerDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" version="1.0.0" xsi:noNamespaceSchemaLocation="LayerDefinition-1.0.0.xsd">
+  <VectorLayerDefinition>
+    <ResourceId>Library://Samples/Melbourne/Data/Municipal Boundary.FeatureSource</ResourceId>
+    <FeatureName>Default:Municipal Boundary</FeatureName>
+    <FeatureNameType>FeatureClass</FeatureNameType>
+    <Geometry>Geometry</Geometry>
+    <VectorScaleRange>
+      <AreaTypeStyle>
+        <AreaRule>
+          <LegendLabel/>
+          <AreaSymbolization2D>
+            <Fill>
+              <FillPattern>Solid</FillPattern>
+              <ForegroundColor>FFC79A58</ForegroundColor>
+              <BackgroundColor>ffffffff</BackgroundColor>
+            </Fill>
+          </AreaSymbolization2D>
+        </AreaRule>
+      </AreaTypeStyle>
+    </VectorScaleRange>
+  </VectorLayerDefinition>
+</LayerDefinition>

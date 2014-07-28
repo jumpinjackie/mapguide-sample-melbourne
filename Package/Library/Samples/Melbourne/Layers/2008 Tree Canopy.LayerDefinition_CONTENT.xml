@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LayerDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" version="1.0.0" xsi:noNamespaceSchemaLocation="LayerDefinition-1.0.0.xsd">
+  <VectorLayerDefinition>
+    <ResourceId>Library://Samples/Melbourne/Data/2008 Tree Canopy.FeatureSource</ResourceId>
+    <FeatureName>Default:2008 Tree Canopy</FeatureName>
+    <FeatureNameType>FeatureClass</FeatureNameType>
+    <PropertyMapping>
+      <Name>FeatId</Name>
+      <Value>ID</Value>
+    </PropertyMapping>
+    <PropertyMapping>
+      <Name>Data_Linea</Name>
+      <Value>Data Lineage</Value>
+    </PropertyMapping>
+    <PropertyMapping>
+      <Name>Updated_by</Name>
+      <Value>Updated By</Value>
+    </PropertyMapping>
+    <PropertyMapping>
+      <Name>Updated_Da</Name>
+      <Value>Updated Date</Value>
+    </PropertyMapping>
+    <PropertyMapping>
+      <Name>Shape_Leng</Name>
+      <Value>Length</Value>
+    </PropertyMapping>
+    <PropertyMapping>
+      <Name>Shape_Area</Name>
+      <Value>Area</Value>
+    </PropertyMapping>
+    <Geometry>Geometry</Geometry>
+    <VectorScaleRange>
+      <AreaTypeStyle>
+        <AreaRule>
+          <LegendLabel/>
+          <AreaSymbolization2D>
+            <Fill>
+              <FillPattern>Solid</FillPattern>
+              <ForegroundColor>6E80FF00</ForegroundColor>
+              <BackgroundColor>6E80FF00</BackgroundColor>
+            </Fill>
+            <Stroke>
+              <LineStyle>Solid</LineStyle>
+              <Thickness>1</Thickness>
+              <Color>FF008000</Color>
+              <Unit>Points</Unit>
+            </Stroke>
+          </AreaSymbolization2D>
+        </AreaRule>
+      </AreaTypeStyle>
+    </VectorScaleRange>
+  </VectorLayerDefinition>
+</LayerDefinition>

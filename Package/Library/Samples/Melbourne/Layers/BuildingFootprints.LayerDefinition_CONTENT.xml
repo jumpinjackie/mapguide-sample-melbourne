@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LayerDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" version="2.4.0" xsi:noNamespaceSchemaLocation="LayerDefinition-2.4.0.xsd">
+  <VectorLayerDefinition>
+    <ResourceId>Library://Samples/Melbourne/Data/BuildingFootprints.FeatureSource</ResourceId>
+    <Watermarks/>
+    <FeatureName>Default:BuildingFootprints</FeatureName>
+    <FeatureNameType>FeatureClass</FeatureNameType>
+    <PropertyMapping>
+      <Name>FeatId</Name>
+      <Value>FeatId</Value>
+    </PropertyMapping>
+    <PropertyMapping>
+      <Name>EASTING</Name>
+      <Value>EASTING</Value>
+    </PropertyMapping>
+    <PropertyMapping>
+      <Name>NORTHING</Name>
+      <Value>NORTHING</Value>
+    </PropertyMapping>
+    <PropertyMapping>
+      <Name>MCCID_INT</Name>
+      <Value>MCCID_INT</Value>
+    </PropertyMapping>
+    <PropertyMapping>
+      <Name>ZMAX</Name>
+      <Value>ZMAX</Value>
+    </PropertyMapping>
+    <PropertyMapping>
+      <Name>ZMIN</Name>
+      <Value>ZMIN</Value>
+    </PropertyMapping>
+    <PropertyMapping>
+      <Name>HEIGHT</Name>
+      <Value>HEIGHT</Value>
+    </PropertyMapping>
+    <PropertyMapping>
+      <Name>BUILD_YEAR</Name>
+      <Value>BUILD_YEAR</Value>
+    </PropertyMapping>
+    <PropertyMapping>
+      <Name>FLOORS</Name>
+      <Value>FLOORS</Value>
+    </PropertyMapping>
+    <PropertyMapping>
+      <Name>FMTADDRESS</Name>
+      <Value>FMTADDRESS</Value>
+    </PropertyMapping>
+    <PropertyMapping>
+      <Name>MCCID_STR</Name>
+      <Value>MCCID_STR</Value>
+    </PropertyMapping>
+    <Geometry>Geometry</Geometry>
+    <ToolTip>Concat('Building\nAddress: ', FMTADDRESS, '\nFloors: ', FLOORS)</ToolTip>
+    <VectorScaleRange>
+      <AreaTypeStyle>
+        <AreaRule>
+          <LegendLabel>&lt; 16 Floors</LegendLabel>
+          <Filter>"FLOORS" &lt;= 16</Filter>
+          <AreaSymbolization2D>
+            <Fill>
+              <FillPattern>Solid</FillPattern>
+              <ForegroundColor>ffe41a1c</ForegroundColor>
+              <BackgroundColor>ffffffff</BackgroundColor>
+            </Fill>
+          </AreaSymbolization2D>
+        </AreaRule>
+        <AreaRule>
+          <LegendLabel>16 - 31 Floors</LegendLabel>
+          <Filter>"FLOORS" > 16 AND "FLOORS" &lt;= 31</Filter>
+          <AreaSymbolization2D>
+            <Fill>
+              <FillPattern>Solid</FillPattern>
+              <ForegroundColor>ff377eb8</ForegroundColor>
+              <BackgroundColor>ffffffff</BackgroundColor>
+            </Fill>
+          </AreaSymbolization2D>
+        </AreaRule>
+        <AreaRule>
+          <LegendLabel>31 - 46 Floors</LegendLabel>
+          <Filter>"FLOORS" > 31 AND "FLOORS" &lt;= 46</Filter>
+          <AreaSymbolization2D>
+            <Fill>
+              <FillPattern>Solid</FillPattern>
+              <ForegroundColor>ff4daf4a</ForegroundColor>
+              <BackgroundColor>ffffffff</BackgroundColor>
+            </Fill>
+          </AreaSymbolization2D>
+        </AreaRule>
+        <AreaRule>
+          <LegendLabel>46 - 62 Floors</LegendLabel>
+          <Filter>"FLOORS" > 46 AND "FLOORS" &lt;= 62</Filter>
+          <AreaSymbolization2D>
+            <Fill>
+              <FillPattern>Solid</FillPattern>
+              <ForegroundColor>ff984ea3</ForegroundColor>
+              <BackgroundColor>ffffffff</BackgroundColor>
+            </Fill>
+          </AreaSymbolization2D>
+        </AreaRule>
+        <AreaRule>
+          <LegendLabel>62 - 78 Floors</LegendLabel>
+          <Filter>"FLOORS" > 62 AND "FLOORS" &lt;= 78</Filter>
+          <AreaSymbolization2D>
+            <Fill>
+              <FillPattern>Solid</FillPattern>
+              <ForegroundColor>ffff7f00</ForegroundColor>
+              <BackgroundColor>ffffffff</BackgroundColor>
+            </Fill>
+          </AreaSymbolization2D>
+        </AreaRule>
+        <AreaRule>
+          <LegendLabel>> 78 Floors</LegendLabel>
+          <Filter>"FLOORS" > 78</Filter>
+          <AreaSymbolization2D>
+            <Fill>
+              <FillPattern>Solid</FillPattern>
+              <ForegroundColor>ffffff33</ForegroundColor>
+              <BackgroundColor>ffffffff</BackgroundColor>
+            </Fill>
+          </AreaSymbolization2D>
+        </AreaRule>
+      </AreaTypeStyle>
+      <ElevationSettings>
+        <ZOffset>0</ZOffset>
+        <ZExtrusion>HEIGHT</ZExtrusion>
+        <Unit>Meters</Unit>
+      </ElevationSettings>
+    </VectorScaleRange>
+  </VectorLayerDefinition>
+</LayerDefinition>
