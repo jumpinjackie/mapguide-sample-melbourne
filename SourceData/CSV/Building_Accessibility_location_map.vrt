@@ -1,0 +1,8 @@
+<OGRVRTDataSource>
+    <OGRVRTLayer name="Building_Accessibility_location_map">
+        <SrcDataSource>Building_Accessibility_location_map.csv</SrcDataSource> 
+        <GeometryType>wkbPoint</GeometryType> 
+        <LayerSRS>+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs</LayerSRS>
+        <GeometryField encoding="PointFromColumns" x="Longitude" y="Latitude"/> 
+    </OGRVRTLayer>
+</OGRVRTDataSource>

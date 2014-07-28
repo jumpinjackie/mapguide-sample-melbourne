@@ -10,11 +10,41 @@
   </Extents>
   <BackgroundColor>ffffffff</BackgroundColor>
   <MapLayer>
-    <Name>Address Points</Name>
-    <ResourceId>Library://Samples/Melbourne/Layers/Address Points.LayerDefinition</ResourceId>
+    <Name>Suburbs</Name>
+    <ResourceId>Library://Samples/Melbourne/Layers/Census_of_Land_Use_and_Employment_(CLUE)_Suburb.LayerDefinition</ResourceId>
+    <Selectable>false</Selectable>
+    <ShowInLegend>true</ShowInLegend>
+    <LegendLabel>Suburbs</LegendLabel>
+    <ExpandInLegend>true</ExpandInLegend>
+    <Visible>true</Visible>
+    <Group/>
+  </MapLayer>
+  <MapLayer>
+    <Name>Building Accessibility Locations</Name>
+    <ResourceId>Library://Samples/Melbourne/Layers/Building Accessibility Locations.LayerDefinition</ResourceId>
     <Selectable>true</Selectable>
     <ShowInLegend>true</ShowInLegend>
-    <LegendLabel>Address Points</LegendLabel>
+    <LegendLabel>Building Accessibility Locations</LegendLabel>
+    <ExpandInLegend>true</ExpandInLegend>
+    <Visible>false</Visible>
+    <Group/>
+  </MapLayer>
+  <MapLayer>
+    <Name>Bike Share Locations</Name>
+    <ResourceId>Library://Samples/Melbourne/Layers/Bike Share Locations.LayerDefinition</ResourceId>
+    <Selectable>true</Selectable>
+    <ShowInLegend>true</ShowInLegend>
+    <LegendLabel>Bike Share Locations</LegendLabel>
+    <ExpandInLegend>true</ExpandInLegend>
+    <Visible>false</Visible>
+    <Group/>
+  </MapLayer>
+  <MapLayer>
+    <Name>Trees</Name>
+    <ResourceId>Library://Samples/Melbourne/Layers/Trees.LayerDefinition</ResourceId>
+    <Selectable>true</Selectable>
+    <ShowInLegend>true</ShowInLegend>
+    <LegendLabel>Trees</LegendLabel>
     <ExpandInLegend>true</ExpandInLegend>
     <Visible>false</Visible>
     <Group/>
@@ -36,7 +66,7 @@
     <ShowInLegend>true</ShowInLegend>
     <LegendLabel>City Circle Stops</LegendLabel>
     <ExpandInLegend>true</ExpandInLegend>
-    <Visible>true</Visible>
+    <Visible>false</Visible>
     <Group/>
   </MapLayer>
   <MapLayer>
@@ -46,7 +76,7 @@
     <ShowInLegend>true</ShowInLegend>
     <LegendLabel>Syringe Bins</LegendLabel>
     <ExpandInLegend>true</ExpandInLegend>
-    <Visible>true</Visible>
+    <Visible>false</Visible>
     <Group/>
   </MapLayer>
   <MapLayer>
@@ -62,11 +92,21 @@
   <MapLayer>
     <Name>Major Features</Name>
     <ResourceId>Library://Samples/Melbourne/Layers/Major Features.LayerDefinition</ResourceId>
-    <Selectable>true</Selectable>
+    <Selectable>false</Selectable>
     <ShowInLegend>true</ShowInLegend>
     <LegendLabel>Major Features</LegendLabel>
     <ExpandInLegend>true</ExpandInLegend>
     <Visible>true</Visible>
+    <Group/>
+  </MapLayer>
+  <MapLayer>
+    <Name>CLUE - Number of Establishments per Block</Name>
+    <ResourceId>Library://Samples/Melbourne/Layers/CLUE - Number of Establishments per Block.LayerDefinition</ResourceId>
+    <Selectable>true</Selectable>
+    <ShowInLegend>true</ShowInLegend>
+    <LegendLabel>CLUE - Number of Establishments per Block</LegendLabel>
+    <ExpandInLegend>true</ExpandInLegend>
+    <Visible>false</Visible>
     <Group/>
   </MapLayer>
   <MapLayer>
@@ -80,9 +120,29 @@
     <Group/>
   </MapLayer>
   <MapLayer>
+    <Name>FootpathGrades</Name>
+    <ResourceId>Library://Samples/Melbourne/Layers/FootpathGrades.LayerDefinition</ResourceId>
+    <Selectable>false</Selectable>
+    <ShowInLegend>true</ShowInLegend>
+    <LegendLabel>FootpathGrades</LegendLabel>
+    <ExpandInLegend>true</ExpandInLegend>
+    <Visible>true</Visible>
+    <Group/>
+  </MapLayer>
+  <MapLayer>
+    <Name>Road Corridor</Name>
+    <ResourceId>Library://Samples/Melbourne/Layers/Road Corridor.LayerDefinition</ResourceId>
+    <Selectable>false</Selectable>
+    <ShowInLegend>true</ShowInLegend>
+    <LegendLabel>Road Corridor</LegendLabel>
+    <ExpandInLegend>true</ExpandInLegend>
+    <Visible>true</Visible>
+    <Group/>
+  </MapLayer>
+  <MapLayer>
     <Name>Property Boundaries</Name>
     <ResourceId>Library://Samples/Melbourne/Layers/Property Boundaries.LayerDefinition</ResourceId>
-    <Selectable>true</Selectable>
+    <Selectable>false</Selectable>
     <ShowInLegend>true</ShowInLegend>
     <LegendLabel>Property Boundaries</LegendLabel>
     <ExpandInLegend>true</ExpandInLegend>

@@ -1,63 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <LayerDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" version="1.0.0" xsi:noNamespaceSchemaLocation="LayerDefinition-1.0.0.xsd">
   <VectorLayerDefinition>
-    <ResourceId>Library://Samples/Melbourne/Data/Property Boundaries.FeatureSource</ResourceId>
-    <FeatureName>Default:Property Boundaries</FeatureName>
+    <ResourceId>Library://Samples/Melbourne/Data/Census_of_Land_Use_and_Employment_(CLUE)_Suburb.FeatureSource</ResourceId>
+    <FeatureName>Default:Census_of_Land_Use_and_Employment_(CLUE)_Suburb</FeatureName>
     <FeatureNameType>FeatureClass</FeatureNameType>
     <PropertyMapping>
       <Name>FeatId</Name>
       <Value>FeatId</Value>
     </PropertyMapping>
     <PropertyMapping>
-      <Name>MCCID_GIS</Name>
-      <Value>MCCID_GIS</Value>
+      <Name>FEATURENAM</Name>
+      <Value>FEATURENAM</Value>
     </PropertyMapping>
     <PropertyMapping>
-      <Name>MCCID_INT</Name>
-      <Value>MCCID_INT</Value>
+      <Name>SHAPE_AREA</Name>
+      <Value>SHAPE_AREA</Value>
     </PropertyMapping>
     <PropertyMapping>
-      <Name>MCCID_STR</Name>
-      <Value>MCCID_STR</Value>
-    </PropertyMapping>
-    <PropertyMapping>
-      <Name>NAME</Name>
-      <Value>NAME</Value>
-    </PropertyMapping>
-    <PropertyMapping>
-      <Name>ADDRESS</Name>
-      <Value>ADDRESS</Value>
-    </PropertyMapping>
-    <PropertyMapping>
-      <Name>MAPLABEL</Name>
-      <Value>MAPLABEL</Value>
-    </PropertyMapping>
-    <PropertyMapping>
-      <Name>XDATE</Name>
-      <Value>XDATE</Value>
-    </PropertyMapping>
-    <PropertyMapping>
-      <Name>XORG</Name>
-      <Value>XORG</Value>
-    </PropertyMapping>
-    <PropertyMapping>
-      <Name>XSOURCE</Name>
-      <Value>XSOURCE</Value>
-    </PropertyMapping>
-    <PropertyMapping>
-      <Name>POLYAREA</Name>
-      <Value>POLYAREA</Value>
+      <Name>SHAPE_LEN</Name>
+      <Value>SHAPE_LEN</Value>
     </PropertyMapping>
     <Geometry>Geometry</Geometry>
-    <ToolTip>Concat('Property\n', ADDRESS)</ToolTip>
     <VectorScaleRange>
+      <MinScale>20000</MinScale>
       <AreaTypeStyle>
         <AreaRule>
           <LegendLabel/>
+          <Label>
+            <Unit>Points</Unit>
+            <SizeContext>DeviceUnits</SizeContext>
+            <SizeX>10</SizeX>
+            <SizeY>10</SizeY>
+            <Rotation>0</Rotation>
+            <Text>FEATURENAM</Text>
+            <FontName>Verdana</FontName>
+            <ForegroundColor>FFFFFFFF</ForegroundColor>
+            <BackgroundColor>FF4DB364</BackgroundColor>
+            <BackgroundStyle>Opaque</BackgroundStyle>
+          </Label>
           <AreaSymbolization2D>
             <Fill>
               <FillPattern>Solid</FillPattern>
-              <ForegroundColor>FF7DB45C</ForegroundColor>
+              <ForegroundColor>7698A6D6</ForegroundColor>
               <BackgroundColor>ffffffff</BackgroundColor>
             </Fill>
             <Stroke>

@@ -42,9 +42,15 @@
         <LineRule>
           <LegendLabel/>
           <LineSymbolization2D>
-            <LineStyle>Rail</LineStyle>
+            <LineStyle>Solid</LineStyle>
+            <Thickness>5</Thickness>
+            <Color>FFFF8000</Color>
+            <Unit>Points</Unit>
+          </LineSymbolization2D>
+          <LineSymbolization2D>
+            <LineStyle>Solid</LineStyle>
             <Thickness>1</Thickness>
-            <Color>ff000000</Color>
+            <Color>FFFFFFFF</Color>
             <Unit>Points</Unit>
           </LineSymbolization2D>
         </LineRule>

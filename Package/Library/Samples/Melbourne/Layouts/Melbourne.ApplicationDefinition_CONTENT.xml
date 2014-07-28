@@ -68,10 +68,6 @@
       <Extension/>
       <Item xsi:type="WidgetItemType">
         <Function>Widget</Function>
-        <Widget>Print</Widget>
-      </Item>
-      <Item xsi:type="WidgetItemType">
-        <Function>Widget</Function>
         <Widget>QuickPlot</Widget>
       </Item>
       <Item xsi:type="SeparatorItemType">
@@ -97,41 +93,33 @@
         <Function>Widget</Function>
         <Widget>ClearSelection</Widget>
       </Item>
-      <Item xsi:type="WidgetItemType">
-        <Function>Widget</Function>
-        <Widget>tbBuffer</Widget>
-      </Item>
-      <Item xsi:type="WidgetItemType">
-        <Function>Widget</Function>
-        <Widget>Measure</Widget>
-      </Item>
-      <Item xsi:type="WidgetItemType">
-        <Function>Widget</Function>
-        <Widget>FeatureInfo</Widget>
-      </Item>
-      <Item xsi:type="WidgetItemType">
-        <Function>Widget</Function>
-        <Widget>Query</Widget>
-      </Item>
-      <Item xsi:type="WidgetItemType">
-        <Function>Widget</Function>
-        <Widget>Theme</Widget>
-      </Item>
-      <Item xsi:type="WidgetItemType">
-        <Function>Widget</Function>
-        <Widget>Redline</Widget>
-      </Item>
-      <Item xsi:type="WidgetItemType">
-        <Function>Widget</Function>
-        <Widget>ViewOptions</Widget>
-      </Item>
-      <Item xsi:type="WidgetItemType">
-        <Function>Widget</Function>
-        <Widget>About</Widget>
-      </Item>
-      <Item xsi:type="WidgetItemType">
-        <Function>Widget</Function>
-        <Widget>Help</Widget>
+      <Item xsi:type="FlyoutItemType">
+        <Function>Flyout</Function>
+        <Label>Tools</Label>
+        <Item xsi:type="WidgetItemType">
+          <Function>Widget</Function>
+          <Widget>tbBuffer</Widget>
+        </Item>
+        <Item xsi:type="WidgetItemType">
+          <Function>Widget</Function>
+          <Widget>Measure</Widget>
+        </Item>
+        <Item xsi:type="WidgetItemType">
+          <Function>Widget</Function>
+          <Widget>Query</Widget>
+        </Item>
+        <Item xsi:type="WidgetItemType">
+          <Function>Widget</Function>
+          <Widget>Theme</Widget>
+        </Item>
+        <Item xsi:type="WidgetItemType">
+          <Function>Widget</Function>
+          <Widget>FeatureInfo</Widget>
+        </Item>
+        <Item xsi:type="WidgetItemType">
+          <Function>Widget</Function>
+          <Widget>Redline</Widget>
+        </Item>
       </Item>
     </Container>
     <Container xsi:type="UiItemContainerType">
@@ -231,6 +219,18 @@
         <Function>Widget</Function>
         <Widget>BasemapSwitcher</Widget>
       </Item>
+      <Item xsi:type="WidgetItemType">
+        <Function>Widget</Function>
+        <Widget>GoogleStreetViewer</Widget>
+      </Item>
+      <Item xsi:type="WidgetItemType">
+        <Function>Widget</Function>
+        <Widget>Geolocation</Widget>
+      </Item>
+      <Item xsi:type="WidgetItemType">
+        <Function>Widget</Function>
+        <Widget>ViewAsKml</Widget>
+      </Item>
       <Item xsi:type="FlyoutItemType">
         <Function>Flyout</Function>
         <Label>View</Label>
@@ -250,14 +250,6 @@
           <Function>Widget</Function>
           <Widget>showSelectionPanel</Widget>
         </Item>
-      </Item>
-      <Item xsi:type="WidgetItemType">
-        <Function>Widget</Function>
-        <Widget>GoogleStreetViewer</Widget>
-      </Item>
-      <Item xsi:type="WidgetItemType">
-        <Function>Widget</Function>
-        <Widget>Geolocation</Widget>
       </Item>
     </Container>
     <Container xsi:type="UiItemContainerType">
@@ -371,10 +363,6 @@
       </Item>
       <Item xsi:type="WidgetItemType">
         <Function>Widget</Function>
-        <Widget>Help</Widget>
-      </Item>
-      <Item xsi:type="WidgetItemType">
-        <Function>Widget</Function>
         <Widget>About</Widget>
       </Item>
     </Container>
@@ -421,7 +409,7 @@
       <Type>About</Type>
       <Location/>
       <Extension>
-        <AboutURL>widgets/About/About.html</AboutURL>
+        <AboutURL>https://github.com/jumpinjackie/mapguide-sample-melbourne</AboutURL>
       </Extension>
       <ImageUrl>images/icons.png</ImageUrl>
       <ImageClass>about</ImageClass>
@@ -652,15 +640,14 @@
       <Location/>
       <Extension>
         <Delay>350</Delay>
-        <Layer>
-        </Layer>
+        <Layer/>
         <Tolerance>2</Tolerance>
         <Target>MaptipWindow</Target>
         <WinFeatures>menubar=no,location=no,resizable=no,status=no</WinFeatures>
       </Extension>
       <ImageUrl>images/icons.png</ImageUrl>
       <ImageClass>maptip</ImageClass>
-      <Label>Maptip</Label>
+      <Label>Map Tooltips</Label>
       <Tooltip>Click to Enable/Disable get information about features from Server</Tooltip>
       <StatusText/>
       <Disabled>false</Disabled>
@@ -770,10 +757,8 @@
         <ShowCoordinateLabels>true</ShowCoordinateLabels>
         <ShowSubTitle>true</ShowSubTitle>
         <DefaultDpi>96</DefaultDpi>
-        <PaperListEntry>
-        </PaperListEntry>
-        <ScaleListEntry>
-        </ScaleListEntry>
+        <PaperListEntry/>
+        <ScaleListEntry/>
         <DefaultMargin>25.4,12.7,12.7,12.7</DefaultMargin>
         <Disclaimer>The materials available at this web site are for informational purposes only and do not constitute a legal document.</Disclaimer>
         <AllowDisclaimerToggle>true</AllowDisclaimerToggle>
@@ -785,7 +770,7 @@
       </Extension>
       <ImageUrl>images/icons/print.png</ImageUrl>
       <ImageClass/>
-      <Label>Quick Plot</Label>
+      <Label>Plot to PDF</Label>
       <Tooltip>Click to create a plot quickly</Tooltip>
       <StatusText/>
       <Disabled>false</Disabled>
@@ -1132,8 +1117,8 @@
       <Extension>
         <Script>showOverviewMap()</Script>
       </Extension>
-      <ImageUrl/>
-      <ImageClass/>
+      <ImageUrl>images/icons.png</ImageUrl>
+      <ImageClass>invoke-script</ImageClass>
       <Label>Show Overview</Label>
       <Tooltip/>
       <StatusText/>
@@ -1146,8 +1131,8 @@
       <Extension>
         <Script>showTaskPane()</Script>
       </Extension>
-      <ImageUrl/>
-      <ImageClass/>
+      <ImageUrl>images/icons.png</ImageUrl>
+      <ImageClass>invoke-script</ImageClass>
       <Label>Show Task Pane</Label>
       <Tooltip/>
       <StatusText/>
@@ -1160,8 +1145,8 @@
       <Extension>
         <Script>showLegend()</Script>
       </Extension>
-      <ImageUrl/>
-      <ImageClass/>
+      <ImageUrl>images/icons.png</ImageUrl>
+      <ImageClass>invoke-script</ImageClass>
       <Label>Show Legend</Label>
       <Tooltip/>
       <StatusText/>
@@ -1174,8 +1159,8 @@
       <Extension>
         <Script>showSelectionPanel()</Script>
       </Extension>
-      <ImageUrl/>
-      <ImageClass/>
+      <ImageUrl>images/icons.png</ImageUrl>
+      <ImageClass>invoke-script</ImageClass>
       <Label>Show Selection Panel</Label>
       <Tooltip/>
       <StatusText/>
@@ -1339,6 +1324,25 @@
       <ImageClass>select-zoom</ImageClass>
       <Label/>
       <Tooltip>Click to zoom to the selection</Tooltip>
+      <StatusText/>
+      <Disabled>false</Disabled>
+    </Widget>
+    <Widget xsi:type="UiWidgetType">
+      <Name>ViewAsKml</Name>
+      <Type>InvokeScript</Type>
+      <Location/>
+      <Extension>
+        <Script>
+    var map = this.getMapLayer();
+    var mapDefId = map.sMapResourceId;
+    var url = "../../../../mapagent/mapagent.fcgi?USERNAME=Anonymous&amp;OPERATION=GetMapKml&amp;VERSION=1.0.0&amp;MAPDEFINITION=" + mapDefId;
+    window.open(url);
+    </Script>
+      </Extension>
+      <ImageUrl>images/icons.png</ImageUrl>
+      <ImageClass>invoke-script</ImageClass>
+      <Label>Export to KML</Label>
+      <Tooltip>Export this map to KML</Tooltip>
       <StatusText/>
       <Disabled>false</Disabled>
     </Widget>

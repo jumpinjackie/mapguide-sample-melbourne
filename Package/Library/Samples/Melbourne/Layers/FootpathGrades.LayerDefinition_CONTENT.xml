@@ -1,63 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <LayerDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" version="1.0.0" xsi:noNamespaceSchemaLocation="LayerDefinition-1.0.0.xsd">
   <VectorLayerDefinition>
-    <ResourceId>Library://Samples/Melbourne/Data/Property Boundaries.FeatureSource</ResourceId>
-    <FeatureName>Default:Property Boundaries</FeatureName>
+    <ResourceId>Library://Samples/Melbourne/Data/FootpathGrades.FeatureSource</ResourceId>
+    <FeatureName>Default:FootpathGrades</FeatureName>
     <FeatureNameType>FeatureClass</FeatureNameType>
     <PropertyMapping>
       <Name>FeatId</Name>
       <Value>FeatId</Value>
     </PropertyMapping>
     <PropertyMapping>
-      <Name>MCCID_GIS</Name>
-      <Value>MCCID_GIS</Value>
-    </PropertyMapping>
-    <PropertyMapping>
       <Name>MCCID_INT</Name>
       <Value>MCCID_INT</Value>
     </PropertyMapping>
     <PropertyMapping>
-      <Name>MCCID_STR</Name>
-      <Value>MCCID_STR</Value>
+      <Name>STREETID</Name>
+      <Value>STREETID</Value>
     </PropertyMapping>
     <PropertyMapping>
-      <Name>NAME</Name>
-      <Value>NAME</Value>
+      <Name>STATUSID</Name>
+      <Value>STATUSID</Value>
+    </PropertyMapping>
+    <PropertyMapping>
+      <Name>SEGSIDE</Name>
+      <Value>SEGSIDE</Value>
     </PropertyMapping>
     <PropertyMapping>
       <Name>ADDRESS</Name>
       <Value>ADDRESS</Value>
     </PropertyMapping>
     <PropertyMapping>
-      <Name>MAPLABEL</Name>
-      <Value>MAPLABEL</Value>
+      <Name>MCC_ID</Name>
+      <Value>MCC_ID</Value>
     </PropertyMapping>
     <PropertyMapping>
-      <Name>XDATE</Name>
-      <Value>XDATE</Value>
+      <Name>ASSET_TYPE</Name>
+      <Value>ASSET_TYPE</Value>
     </PropertyMapping>
     <PropertyMapping>
-      <Name>XORG</Name>
-      <Value>XORG</Value>
+      <Name>RLMAX</Name>
+      <Value>RLMAX</Value>
     </PropertyMapping>
     <PropertyMapping>
-      <Name>XSOURCE</Name>
-      <Value>XSOURCE</Value>
+      <Name>RLMIN</Name>
+      <Value>RLMIN</Value>
     </PropertyMapping>
     <PropertyMapping>
-      <Name>POLYAREA</Name>
-      <Value>POLYAREA</Value>
+      <Name>Distance</Name>
+      <Value>Distance</Value>
+    </PropertyMapping>
+    <PropertyMapping>
+      <Name>Deltaz</Name>
+      <Value>Deltaz</Value>
+    </PropertyMapping>
+    <PropertyMapping>
+      <Name>GradePC</Name>
+      <Value>GradePC</Value>
+    </PropertyMapping>
+    <PropertyMapping>
+      <Name>Grade1in</Name>
+      <Value>Grade1in</Value>
     </PropertyMapping>
     <Geometry>Geometry</Geometry>
-    <ToolTip>Concat('Property\n', ADDRESS)</ToolTip>
     <VectorScaleRange>
+      <MaxScale>4500</MaxScale>
       <AreaTypeStyle>
         <AreaRule>
           <LegendLabel/>
           <AreaSymbolization2D>
             <Fill>
               <FillPattern>Solid</FillPattern>
-              <ForegroundColor>FF7DB45C</ForegroundColor>
+              <ForegroundColor>FFB9B9B9</ForegroundColor>
               <BackgroundColor>ffffffff</BackgroundColor>
             </Fill>
             <Stroke>

@@ -1,3 +1,5 @@
-"BSicon TRAM" by Seo75 - Own work. Licensed under Public domain via Wikimedia Commons - http://commons.wikimedia.org/wiki/File:BSicon_TRAM.svg#mediaviewer/File:BSicon_TRAM.svg
+Icons - Map Icons Collection
 
-Converted to PNG via Paint.NET
+http://mapicons.nicolasmollet.com/
+
+Licensed under Creative Commons 3.0 BY-SA

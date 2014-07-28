@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SimpleSymbolDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="SymbolDefinition-2.4.0.xsd" version="2.4.0">
+  <Name>Trash</Name>
+  <Description>Trash</Description>
+  <Graphics>
+    <Image>
+      <Content>iVBORw0KGgoAAAANSUhEUgAAACAAAAAlCAYAAAAjt+tHAAAFgUlEQVRYhbWX228UVRzHP2dmdne6u91urxRpQSgWkEK5KAkXq+KWIA+KAWNCgskantQHgzHRxL8AIfHBFx9ME4jGSzTxhRgr0RQpiQFrpWylKZdeKLfe9tLtdLs748POTHe32+1uxF/yy5k58zu/7/f8zu+cOT9hGAYA7e3tCiABTrNVeLySBHQgAeidnZ1JAGEYhgXuBFRTnSYB6TGB6yaBBKCZmujs7EyKQCBggbsBn9mq/D8R0IA4EDHbhDVL1QSv6zKClx8zcJa0iY7d5qMOJDND7+4ygpeb16/F63XjLit7rMDx2VlisThdg8HLbaJjC+YyZCaeClBR7sbjLh5c13VuDt1jLjGPLEukUjq11RWsqKnMsvN5ypCF/WrlmWRlu6X4vG5kSRStkVgcjBS/nt7D8JcB3j/axKOJMAJjka3P67YI2JhWltvZLsuiJC33qLy2dyXNDV4ATh5twqMqOBxyXvsMkSwmWSKXuPFmNY3u0Iz9HhqKMqMlMfQUiiIvOz4PAZHPLq9MRWa4MzoOQPCTHlrX+fiuawyHLOgJDVFX7WNdY21pBBxycQRSKZ0bt+6zf1sN5z7cYfe/d6QJgLOdI3z0RT8bnqwr6GdRwGWpOO29MYrbJWeBZ8qb7Y15/eXK4iVYIgI3h8e5MzaV1Xfh1O68tuPhOWoqXAX9LUlgqSVYUe0l2F7PiZcbs/pPfTvI4T319i4A+L1vksN7Vxb0tySB0Ii2yCgcDqNpGqm5CGvqVHTDYD6pc+12lM9+vM2x/auy7J3KQqzz+StIIJ8kk0nefWU1M1qSt870AiBJEg6HYxEggChhKxckoOs6kiQhyzKra1UcioQQAo/Hg9/vB2B4eBhdN7LG5RIqJAUtR0dHSSVmiEQinPw8REOtygevNxGJRJidnWVkZCTtJOfseDg9x3Rs/r8TkCSJPz7dyfFAI6lUih+6x/mt9xEA3ae38mJrNQAOc8Zd1yYAuNQ3yY53upGk5SNR8BzQdZ2xCY19LZW4HBIHn6nhykAEb5mM2yVzfSiaNXY+qdvPTofCmtUNpZ8DSsa2kSSJi9cmeH5reqZCSBjA9qYKAB5MzeWQT4+VZYEQIstX0RFwKcJWj9tFd2iS+iqVuXmdj88Ooespnm+tYTKaWHAiLMLCfBdIItuXpctGwOlY4FRV4eWvwQgAK6tczCeTGAbsa6ni6kAYIQSGYWBtApuIEEhStq+iI+BUhK3+cpXBsfSvdtfGSqbCMQC2rPXRHZrEU+ZMz8JEVjKXIMeXpcsSUB3C1sry9HmeTOkcfLaOcDRuH61XBqaprfQAUOaSzDb9/1dkgSJl+7I0V6wlsNNXdeacasAvPRMc2lXH3a8P2P39Q1FaN6zizt1JxsMJ6qtUJqPpvT+f1Knyuxf5yhHdIpDMULRZDb/PvrvxRF05J870YBiLPdT4y3A5FXa+3YUkBLphUO52Eo0n2NZcj5qTA9ORuPVoYyoslEsaQDg2g9MhqKxIk9i3raHQLHj1hacKfrdkKhwnHLOvbpqJqYtAIOAEvICfAoXJoec2smndiqLA+m894PzFf/J+MwuTh8A0ELMioJEulzCLhszSTAI4fzF4SZEELesLk+gbTIO3iY69ZpeVX7mlmQboxRSn9h2+ywhePfLS02xtrs8L/vfAfb6/EKJNdOwkO7eWLk6XKc+tNrN863njwGa2b8gm0XPjPt/8fJ020bHdnKW1zpkE8pfnhcQkppLOE69JovfYwc3s2JS+dv3Zf4+vfrpOm+hoNcFjpmoW0FKyLIElSHi7jGDP8UMtAJw732fNPEYJ4EUTyEPCZ5K4ClhrHiOdXEWDl0Qgh4TbVKf5KUE69PFSwEsmkEHCSkprq1pbLFEKOMC//fQPspTGW0AAAAAASUVORK5CYII=</Content>
+      <SizeX>%WIDTH%</SizeX>
+      <SizeY>%HEIGHT%</SizeY>
+    </Image>
+  </Graphics>
+  <PointUsage/>
+  <ParameterDefinition>
+    <Parameter>
+      <Identifier>WIDTH</Identifier>
+      <DefaultValue>8</DefaultValue>
+      <DisplayName>Width</DisplayName>
+      <Description/>
+      <DataType>Real</DataType>
+    </Parameter>
+    <Parameter>
+      <Identifier>HEIGHT</Identifier>
+      <DefaultValue>8</DefaultValue>
+      <DisplayName>Height</DisplayName>
+      <Description/>
+      <DataType>Real</DataType>
+    </Parameter>
+  </ParameterDefinition>
+</SimpleSymbolDefinition>

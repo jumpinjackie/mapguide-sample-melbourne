@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LayerDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" version="1.0.0" xsi:noNamespaceSchemaLocation="LayerDefinition-1.0.0.xsd">
+  <VectorLayerDefinition>
+    <ResourceId>Library://Samples/Melbourne/Data/CLUE_Block_2012.FeatureSource</ResourceId>
+    <FeatureName>Default:CLUE_Block_2012</FeatureName>
+    <FeatureNameType>FeatureClass</FeatureNameType>
+    <PropertyMapping>
+      <Name>FeatId</Name>
+      <Value>FeatId</Value>
+    </PropertyMapping>
+    <PropertyMapping>
+      <Name>Block</Name>
+      <Value>Block</Value>
+    </PropertyMapping>
+    <PropertyMapping>
+      <Name>Flrspace_m</Name>
+      <Value>Flrspace_m</Value>
+    </PropertyMapping>
+    <PropertyMapping>
+      <Name>Employment</Name>
+      <Value>Employment</Value>
+    </PropertyMapping>
+    <PropertyMapping>
+      <Name>Establishm</Name>
+      <Value>Establishm</Value>
+    </PropertyMapping>
+    <Geometry>Geometry</Geometry>
+    <VectorScaleRange>
+      <AreaTypeStyle>
+        <AreaRule>
+          <LegendLabel>Less than 50</LegendLabel>
+          <Filter>"Establishm" &lt;= 50</Filter>
+          <AreaSymbolization2D>
+            <Fill>
+              <FillPattern>Solid</FillPattern>
+              <ForegroundColor>fffdd0a2</ForegroundColor>
+              <BackgroundColor>ffffffff</BackgroundColor>
+            </Fill>
+            <Stroke>
+              <LineStyle>Solid</LineStyle>
+              <Thickness>1</Thickness>
+              <Color>fffdd0a2</Color>
+              <Unit>Points</Unit>
+            </Stroke>
+          </AreaSymbolization2D>
+        </AreaRule>
+        <AreaRule>
+          <LegendLabel>Between 50 and 200</LegendLabel>
+          <Filter>"Establishm" > 50 AND "Establishm" &lt;= 200</Filter>
+          <AreaSymbolization2D>
+            <Fill>
+              <FillPattern>Solid</FillPattern>
+              <ForegroundColor>fffdae6b</ForegroundColor>
+              <BackgroundColor>ffffffff</BackgroundColor>
+            </Fill>
+            <Stroke>
+              <LineStyle>Solid</LineStyle>
+              <Thickness>1</Thickness>
+              <Color>fffdae6b</Color>
+              <Unit>Points</Unit>
+            </Stroke>
+          </AreaSymbolization2D>
+        </AreaRule>
+        <AreaRule>
+          <LegendLabel>Between 200 and 300</LegendLabel>
+          <Filter>"Establishm" > 200 AND "Establishm" &lt;= 300</Filter>
+          <AreaSymbolization2D>
+            <Fill>
+              <FillPattern>Solid</FillPattern>
+              <ForegroundColor>fffd8d3c</ForegroundColor>
+              <BackgroundColor>ffffffff</BackgroundColor>
+            </Fill>
+            <Stroke>
+              <LineStyle>Solid</LineStyle>
+              <Thickness>1</Thickness>
+              <Color>fffd8d3c</Color>
+              <Unit>Points</Unit>
+            </Stroke>
+          </AreaSymbolization2D>
+        </AreaRule>
+        <AreaRule>
+          <LegendLabel>Between 300 and 400</LegendLabel>
+          <Filter>"Establishm" > 300 AND "Establishm" &lt;= 400</Filter>
+          <AreaSymbolization2D>
+            <Fill>
+              <FillPattern>Solid</FillPattern>
+              <ForegroundColor>ffe6550d</ForegroundColor>
+              <BackgroundColor>ffffffff</BackgroundColor>
+            </Fill>
+            <Stroke>
+              <LineStyle>Solid</LineStyle>
+              <Thickness>1</Thickness>
+              <Color>ffe6550d</Color>
+              <Unit>Points</Unit>
+            </Stroke>
+          </AreaSymbolization2D>
+        </AreaRule>
+        <AreaRule>
+          <LegendLabel>More than 400</LegendLabel>
+          <Filter>"Establishm" > 400</Filter>
+          <AreaSymbolization2D>
+            <Fill>
+              <FillPattern>Solid</FillPattern>
+              <ForegroundColor>ffa63603</ForegroundColor>
+              <BackgroundColor>ffffffff</BackgroundColor>
+            </Fill>
+            <Stroke>
+              <LineStyle>Solid</LineStyle>
+              <Thickness>1</Thickness>
+              <Color>ffa63603</Color>
+              <Unit>Points</Unit>
+            </Stroke>
+          </AreaSymbolization2D>
+        </AreaRule>
+      </AreaTypeStyle>
+    </VectorScaleRange>
+  </VectorLayerDefinition>
+</LayerDefinition>

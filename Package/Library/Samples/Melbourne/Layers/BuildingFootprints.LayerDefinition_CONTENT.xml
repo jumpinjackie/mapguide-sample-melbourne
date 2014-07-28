@@ -52,6 +52,7 @@
     <Geometry>Geometry</Geometry>
     <ToolTip>Concat('Building\nAddress: ', FMTADDRESS, '\nFloors: ', FLOORS)</ToolTip>
     <VectorScaleRange>
+      <MaxScale>17000</MaxScale>
       <AreaTypeStyle>
         <AreaRule>
           <LegendLabel>&lt; 16 Floors</LegendLabel>
@@ -59,7 +60,7 @@
           <AreaSymbolization2D>
             <Fill>
               <FillPattern>Solid</FillPattern>
-              <ForegroundColor>ffe41a1c</ForegroundColor>
+              <ForegroundColor>FFFF00FF</ForegroundColor>
               <BackgroundColor>ffffffff</BackgroundColor>
             </Fill>
           </AreaSymbolization2D>

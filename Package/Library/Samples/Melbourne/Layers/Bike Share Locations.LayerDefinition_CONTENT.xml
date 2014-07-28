@@ -1,82 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <LayerDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" version="2.4.0" xsi:noNamespaceSchemaLocation="LayerDefinition-2.4.0.xsd">
   <VectorLayerDefinition>
-    <ResourceId>Library://Samples/Melbourne/Data/SyringeBin.FeatureSource</ResourceId>
+    <ResourceId>Library://Samples/Melbourne/Data/Melbourne_Bike_Share_Locations_Map.FeatureSource</ResourceId>
     <Watermarks/>
-    <FeatureName>Default:SyringeBin</FeatureName>
+    <FeatureName>Default:melbourne_bike_share_locations_map</FeatureName>
     <FeatureNameType>FeatureClass</FeatureNameType>
     <PropertyMapping>
-      <Name>FeatId</Name>
-      <Value>FeatId</Value>
+      <Name>OGC_FID</Name>
+      <Value>OGC_FID</Value>
     </PropertyMapping>
     <PropertyMapping>
-      <Name>MCC_ID</Name>
-      <Value>MCC_ID</Value>
+      <Name>id</Name>
+      <Value>id</Value>
     </PropertyMapping>
     <PropertyMapping>
-      <Name>STR_ID</Name>
-      <Value>STR_ID</Value>
+      <Name>name</Name>
+      <Value>name</Value>
     </PropertyMapping>
     <PropertyMapping>
-      <Name>ASSET_CLAS</Name>
-      <Value>ASSET_CLAS</Value>
+      <Name>latitude</Name>
+      <Value>latitude</Value>
     </PropertyMapping>
     <PropertyMapping>
-      <Name>ASSET_TYPE</Name>
-      <Value>ASSET_TYPE</Value>
+      <Name>longitude</Name>
+      <Value>longitude</Value>
     </PropertyMapping>
     <PropertyMapping>
-      <Name>ASSET_SUBT</Name>
-      <Value>ASSET_SUBT</Value>
+      <Name>nbbikes</Name>
+      <Value>nbbikes</Value>
     </PropertyMapping>
     <PropertyMapping>
-      <Name>DESCRIPTIO</Name>
-      <Value>DESCRIPTIO</Value>
+      <Name>nbemptydoc</Name>
+      <Value>nbemptydoc</Value>
     </PropertyMapping>
     <PropertyMapping>
-      <Name>MODEL_NO</Name>
-      <Value>MODEL_NO</Value>
+      <Name>maplabel</Name>
+      <Value>maplabel</Value>
     </PropertyMapping>
     <PropertyMapping>
-      <Name>MODEL_DESC</Name>
-      <Value>MODEL_DESC</Value>
+      <Name>dateserver</Name>
+      <Value>dateserver</Value>
     </PropertyMapping>
     <PropertyMapping>
-      <Name>PROP_ID</Name>
-      <Value>PROP_ID</Value>
+      <Name>coordinates</Name>
+      <Value>coordinates</Value>
     </PropertyMapping>
-    <PropertyMapping>
-      <Name>ROADSEG_ID</Name>
-      <Value>ROADSEG_ID</Value>
-    </PropertyMapping>
-    <PropertyMapping>
-      <Name>ADDRESSPT_</Name>
-      <Value>ADDRESSPT_</Value>
-    </PropertyMapping>
-    <PropertyMapping>
-      <Name>ADDRESSPT1</Name>
-      <Value>ADDRESSPT1</Value>
-    </PropertyMapping>
-    <PropertyMapping>
-      <Name>ADDRESSP_1</Name>
-      <Value>ADDRESSP_1</Value>
-    </PropertyMapping>
-    <Geometry>Geometry</Geometry>
+    <Geometry>GEOMETRY</Geometry>
     <VectorScaleRange>
       <CompositeTypeStyle>
         <CompositeRule>
           <LegendLabel/>
           <CompositeSymbolization>
             <SymbolInstance>
-              <ResourceId>Library://Samples/Melbourne/Symbols/Trash.SymbolDefinition</ResourceId>
+              <ResourceId>Library://Samples/Melbourne/Symbols/Bicycle.SymbolDefinition</ResourceId>
               <ParameterOverrides>
                 <Override>
-                  <SymbolName>Trash</SymbolName>
+                  <SymbolName>MySymbol</SymbolName>
                   <ParameterIdentifier>HEIGHT</ParameterIdentifier>
                   <ParameterValue>8</ParameterValue>
                 </Override>
                 <Override>
-                  <SymbolName>Trash</SymbolName>
+                  <SymbolName>MySymbol</SymbolName>
                   <ParameterIdentifier>WIDTH</ParameterIdentifier>
                   <ParameterValue>8</ParameterValue>
                 </Override>

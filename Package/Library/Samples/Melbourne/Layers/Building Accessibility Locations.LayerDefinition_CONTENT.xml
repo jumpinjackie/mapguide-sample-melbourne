@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LayerDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" version="1.0.0" xsi:noNamespaceSchemaLocation="LayerDefinition-1.0.0.xsd">
+  <VectorLayerDefinition>
+    <ResourceId>Library://Samples/Melbourne/Data/Building_Accessibility_location_map.FeatureSource</ResourceId>
+    <FeatureName>Default:building_accessibility_location_map</FeatureName>
+    <FeatureNameType>FeatureClass</FeatureNameType>
+    <PropertyMapping>
+      <Name>OGC_FID</Name>
+      <Value>OGC_FID</Value>
+    </PropertyMapping>
+    <PropertyMapping>
+      <Name>building name</Name>
+      <Value>building name</Value>
+    </PropertyMapping>
+    <PropertyMapping>
+      <Name>street address</Name>
+      <Value>street address</Value>
+    </PropertyMapping>
+    <PropertyMapping>
+      <Name>suburb</Name>
+      <Value>suburb</Value>
+    </PropertyMapping>
+    <PropertyMapping>
+      <Name>postcode</Name>
+      <Value>postcode</Value>
+    </PropertyMapping>
+    <PropertyMapping>
+      <Name>accessibility type</Name>
+      <Value>accessibility type</Value>
+    </PropertyMapping>
+    <PropertyMapping>
+      <Name>accessibility type description</Name>
+      <Value>accessibility type description</Value>
+    </PropertyMapping>
+    <PropertyMapping>
+      <Name>accessibility rating</Name>
+      <Value>accessibility rating</Value>
+    </PropertyMapping>
+    <PropertyMapping>
+      <Name>building height (highest floor)</Name>
+      <Value>building height (highest floor)</Value>
+    </PropertyMapping>
+    <PropertyMapping>
+      <Name>construction year</Name>
+      <Value>construction year</Value>
+    </PropertyMapping>
+    <PropertyMapping>
+      <Name>refurbished year</Name>
+      <Value>refurbished year</Value>
+    </PropertyMapping>
+    <PropertyMapping>
+      <Name>latitude</Name>
+      <Value>latitude</Value>
+    </PropertyMapping>
+    <PropertyMapping>
+      <Name>longitude</Name>
+      <Value>longitude</Value>
+    </PropertyMapping>
+    <PropertyMapping>
+      <Name>location</Name>
+      <Value>location</Value>
+    </PropertyMapping>
+    <Geometry>GEOMETRY</Geometry>
+    <VectorScaleRange>
+      <PointTypeStyle>
+        <DisplayAsText>false</DisplayAsText>
+        <AllowOverpost>false</AllowOverpost>
+        <PointRule>
+          <LegendLabel>Alternative access</LegendLabel>
+          <Filter>"accessibility type" = 'Alternative access'</Filter>
+          <PointSymbolization2D>
+            <Mark>
+              <Unit>Points</Unit>
+              <SizeContext>DeviceUnits</SizeContext>
+              <SizeX>10</SizeX>
+              <SizeY>10</SizeY>
+              <Rotation>0</Rotation>
+              <Shape>Circle</Shape>
+              <Fill>
+                <FillPattern>Solid</FillPattern>
+                <ForegroundColor>ff1b9e77</ForegroundColor>
+                <BackgroundColor>ffffffff</BackgroundColor>
+              </Fill>
+              <Edge>
+                <LineStyle>Solid</LineStyle>
+                <Thickness>1</Thickness>
+                <Color>ff1b9e77</Color>
+                <Unit>Points</Unit>
+              </Edge>
+            </Mark>
+          </PointSymbolization2D>
+        </PointRule>
+        <PointRule>
+          <LegendLabel>Not applicable</LegendLabel>
+          <Filter>"accessibility type" = 'Not applicable'</Filter>
+          <PointSymbolization2D>
+            <Mark>
+              <Unit>Points</Unit>
+              <SizeContext>DeviceUnits</SizeContext>
+              <SizeX>10</SizeX>
+              <SizeY>10</SizeY>
+              <Rotation>0</Rotation>
+              <Shape>Circle</Shape>
+              <Fill>
+                <FillPattern>Solid</FillPattern>
+                <ForegroundColor>ffd95f02</ForegroundColor>
+                <BackgroundColor>ffffffff</BackgroundColor>
+              </Fill>
+              <Edge>
+                <LineStyle>Solid</LineStyle>
+                <Thickness>1</Thickness>
+                <Color>ffd95f02</Color>
+                <Unit>Points</Unit>
+              </Edge>
+            </Mark>
+          </PointSymbolization2D>
+        </PointRule>
+        <PointRule>
+          <LegendLabel>Ramp</LegendLabel>
+          <Filter>"accessibility type" = 'Ramp'</Filter>
+          <PointSymbolization2D>
+            <Mark>
+              <Unit>Points</Unit>
+              <SizeContext>DeviceUnits</SizeContext>
+              <SizeX>10</SizeX>
+              <SizeY>10</SizeY>
+              <Rotation>0</Rotation>
+              <Shape>Circle</Shape>
+              <Fill>
+                <FillPattern>Solid</FillPattern>
+                <ForegroundColor>ff7570b3</ForegroundColor>
+                <BackgroundColor>ffffffff</BackgroundColor>
+              </Fill>
+              <Edge>
+                <LineStyle>Solid</LineStyle>
+                <Thickness>1</Thickness>
+                <Color>ff7570b3</Color>
+                <Unit>Points</Unit>
+              </Edge>
+            </Mark>
+          </PointSymbolization2D>
+        </PointRule>
+        <PointRule>
+          <LegendLabel>Small lip or steep ramp</LegendLabel>
+          <Filter>"accessibility type" = 'Small lip or steep ramp'</Filter>
+          <PointSymbolization2D>
+            <Mark>
+              <Unit>Points</Unit>
+              <SizeContext>DeviceUnits</SizeContext>
+              <SizeX>10</SizeX>
+              <SizeY>10</SizeY>
+              <Rotation>0</Rotation>
+              <Shape>Circle</Shape>
+              <Fill>
+                <FillPattern>Solid</FillPattern>
+                <ForegroundColor>ffe7298a</ForegroundColor>
+                <BackgroundColor>ffffffff</BackgroundColor>
+              </Fill>
+              <Edge>
+                <LineStyle>Solid</LineStyle>
+                <Thickness>1</Thickness>
+                <Color>ffe7298a</Color>
+                <Unit>Points</Unit>
+              </Edge>
+            </Mark>
+          </PointSymbolization2D>
+        </PointRule>
+        <PointRule>
+          <LegendLabel>Step free</LegendLabel>
+          <Filter>"accessibility type" = 'Step free'</Filter>
+          <PointSymbolization2D>
+            <Mark>
+              <Unit>Points</Unit>
+              <SizeContext>DeviceUnits</SizeContext>
+              <SizeX>10</SizeX>
+              <SizeY>10</SizeY>
+              <Rotation>0</Rotation>
+              <Shape>Circle</Shape>
+              <Fill>
+                <FillPattern>Solid</FillPattern>
+                <ForegroundColor>ff66a61e</ForegroundColor>
+                <BackgroundColor>ffffffff</BackgroundColor>
+              </Fill>
+              <Edge>
+                <LineStyle>Solid</LineStyle>
+                <Thickness>1</Thickness>
+                <Color>ff66a61e</Color>
+                <Unit>Points</Unit>
+              </Edge>
+            </Mark>
+          </PointSymbolization2D>
+        </PointRule>
+        <PointRule>
+          <LegendLabel>Steps</LegendLabel>
+          <Filter>"accessibility type" = 'Steps'</Filter>
+          <PointSymbolization2D>
+            <Mark>
+              <Unit>Points</Unit>
+              <SizeContext>DeviceUnits</SizeContext>
+              <SizeX>10</SizeX>
+              <SizeY>10</SizeY>
+              <Rotation>0</Rotation>
+              <Shape>Circle</Shape>
+              <Fill>
+                <FillPattern>Solid</FillPattern>
+                <ForegroundColor>ffe6ab02</ForegroundColor>
+                <BackgroundColor>ffffffff</BackgroundColor>
+              </Fill>
+              <Edge>
+                <LineStyle>Solid</LineStyle>
+                <Thickness>1</Thickness>
+                <Color>ffe6ab02</Color>
+                <Unit>Points</Unit>
+              </Edge>
+            </Mark>
+          </PointSymbolization2D>
+        </PointRule>
+        <PointRule>
+          <LegendLabel>Too complex to determine</LegendLabel>
+          <Filter>"accessibility type" = 'Too complex to determine'</Filter>
+          <PointSymbolization2D>
+            <Mark>
+              <Unit>Points</Unit>
+              <SizeContext>DeviceUnits</SizeContext>
+              <SizeX>10</SizeX>
+              <SizeY>10</SizeY>
+              <Rotation>0</Rotation>
+              <Shape>Circle</Shape>
+              <Fill>
+                <FillPattern>Solid</FillPattern>
+                <ForegroundColor>ffa6761d</ForegroundColor>
+                <BackgroundColor>ffffffff</BackgroundColor>
+              </Fill>
+              <Edge>
+                <LineStyle>Solid</LineStyle>
+                <Thickness>1</Thickness>
+                <Color>ffa6761d</Color>
+                <Unit>Points</Unit>
+              </Edge>
+            </Mark>
+          </PointSymbolization2D>
+        </PointRule>
+        <PointRule>
+          <LegendLabel>Undetermined</LegendLabel>
+          <Filter>"accessibility type" = 'Undetermined'</Filter>
+          <PointSymbolization2D>
+            <Mark>
+              <Unit>Points</Unit>
+              <SizeContext>DeviceUnits</SizeContext>
+              <SizeX>10</SizeX>
+              <SizeY>10</SizeY>
+              <Rotation>0</Rotation>
+              <Shape>Circle</Shape>
+              <Fill>
+                <FillPattern>Solid</FillPattern>
+                <ForegroundColor>ff666666</ForegroundColor>
+                <BackgroundColor>ffffffff</BackgroundColor>
+              </Fill>
+              <Edge>
+                <LineStyle>Solid</LineStyle>
+                <Thickness>1</Thickness>
+                <Color>ff666666</Color>
+                <Unit>Points</Unit>
+              </Edge>
+            </Mark>
+          </PointSymbolization2D>
+        </PointRule>
+      </PointTypeStyle>
+    </VectorScaleRange>
+  </VectorLayerDefinition>
+</LayerDefinition>

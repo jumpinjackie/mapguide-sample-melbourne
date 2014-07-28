@@ -1,0 +1,8 @@
+<OGRVRTDataSource>
+    <OGRVRTLayer name="Melbourne_Bike_Share_Locations_Map">
+        <SrcDataSource>Melbourne_Bike_Share_Locations_Map.csv</SrcDataSource> 
+        <GeometryType>wkbPoint</GeometryType> 
+        <LayerSRS>+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs</LayerSRS>
+        <GeometryField encoding="PointFromColumns" x="Longitude" y="Latitude"/> 
+    </OGRVRTLayer>
+</OGRVRTDataSource>

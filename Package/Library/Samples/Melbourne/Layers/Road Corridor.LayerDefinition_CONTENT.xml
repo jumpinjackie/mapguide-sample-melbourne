@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LayerDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" version="1.0.0" xsi:noNamespaceSchemaLocation="LayerDefinition-1.0.0.xsd">
+  <VectorLayerDefinition>
+    <ResourceId>Library://Samples/Melbourne/Data/Road Corridor.FeatureSource</ResourceId>
+    <FeatureName>Default:Road Corridor</FeatureName>
+    <FeatureNameType>FeatureClass</FeatureNameType>
+    <PropertyMapping>
+      <Name>FeatId</Name>
+      <Value>FeatId</Value>
+    </PropertyMapping>
+    <PropertyMapping>
+      <Name>MCCID_GIS</Name>
+      <Value>MCCID_GIS</Value>
+    </PropertyMapping>
+    <PropertyMapping>
+      <Name>MCCID_INT</Name>
+      <Value>MCCID_INT</Value>
+    </PropertyMapping>
+    <PropertyMapping>
+      <Name>MCCID_STR</Name>
+      <Value>MCCID_STR</Value>
+    </PropertyMapping>
+    <PropertyMapping>
+      <Name>STREETID</Name>
+      <Value>STREETID</Value>
+    </PropertyMapping>
+    <PropertyMapping>
+      <Name>STATUSID</Name>
+      <Value>STATUSID</Value>
+    </PropertyMapping>
+    <PropertyMapping>
+      <Name>SEGPART</Name>
+      <Value>SEGPART</Value>
+    </PropertyMapping>
+    <PropertyMapping>
+      <Name>NAME</Name>
+      <Value>NAME</Value>
+    </PropertyMapping>
+    <PropertyMapping>
+      <Name>ADDRESS</Name>
+      <Value>ADDRESS</Value>
+    </PropertyMapping>
+    <PropertyMapping>
+      <Name>MAPLABEL</Name>
+      <Value>MAPLABEL</Value>
+    </PropertyMapping>
+    <PropertyMapping>
+      <Name>XDATE</Name>
+      <Value>XDATE</Value>
+    </PropertyMapping>
+    <PropertyMapping>
+      <Name>XORG</Name>
+      <Value>XORG</Value>
+    </PropertyMapping>
+    <PropertyMapping>
+      <Name>XSOURCE</Name>
+      <Value>XSOURCE</Value>
+    </PropertyMapping>
+    <PropertyMapping>
+      <Name>POLYAREA</Name>
+      <Value>POLYAREA</Value>
+    </PropertyMapping>
+    <Geometry>Geometry</Geometry>
+    <ToolTip>ADDRESS</ToolTip>
+    <VectorScaleRange>
+      <AreaTypeStyle>
+        <AreaRule>
+          <LegendLabel>Arterial</LegendLabel>
+          <Filter>"NAME" = 'Arterial'</Filter>
+          <AreaSymbolization2D>
+            <Fill>
+              <FillPattern>Solid</FillPattern>
+              <ForegroundColor>FF8080C0</ForegroundColor>
+              <BackgroundColor>ffffffff</BackgroundColor>
+            </Fill>
+          </AreaSymbolization2D>
+        </AreaRule>
+        <AreaRule>
+          <LegendLabel>Citylink</LegendLabel>
+          <Filter>"NAME" = 'Citylink' OR "NAME" = 'Citylink2'</Filter>
+          <AreaSymbolization2D>
+            <Fill>
+              <FillPattern>Solid</FillPattern>
+              <ForegroundColor>FF039EFC</ForegroundColor>
+              <BackgroundColor>ffffffff</BackgroundColor>
+            </Fill>
+          </AreaSymbolization2D>
+        </AreaRule>
+        <AreaRule>
+          <LegendLabel>Council Major</LegendLabel>
+          <Filter>"NAME" = 'Council Major'</Filter>
+          <AreaSymbolization2D>
+            <Fill>
+              <FillPattern>Solid</FillPattern>
+              <ForegroundColor>FF494949</ForegroundColor>
+              <BackgroundColor>ffffffff</BackgroundColor>
+            </Fill>
+          </AreaSymbolization2D>
+        </AreaRule>
+        <AreaRule>
+          <LegendLabel>Council Minor</LegendLabel>
+          <Filter>"NAME" = 'Council Minor'</Filter>
+          <AreaSymbolization2D>
+            <Fill>
+              <FillPattern>Solid</FillPattern>
+              <ForegroundColor>FFD3D3D3</ForegroundColor>
+              <BackgroundColor>ffffffff</BackgroundColor>
+            </Fill>
+          </AreaSymbolization2D>
+        </AreaRule>
+        <AreaRule>
+          <LegendLabel>Freeway</LegendLabel>
+          <Filter>"NAME" = 'Freeway'</Filter>
+          <AreaSymbolization2D>
+            <Fill>
+              <FillPattern>Solid</FillPattern>
+              <ForegroundColor>FF008000</ForegroundColor>
+              <BackgroundColor>ffffffff</BackgroundColor>
+            </Fill>
+          </AreaSymbolization2D>
+        </AreaRule>
+        <AreaRule>
+          <LegendLabel>Lease/Reserve</LegendLabel>
+          <Filter>"NAME" = 'Lease/Reserve'</Filter>
+          <AreaSymbolization2D>
+            <Fill>
+              <FillPattern>Solid</FillPattern>
+              <ForegroundColor>FFDAA520</ForegroundColor>
+              <BackgroundColor>ffffffff</BackgroundColor>
+            </Fill>
+          </AreaSymbolization2D>
+        </AreaRule>
+        <AreaRule>
+          <LegendLabel>Parks Victoria</LegendLabel>
+          <Filter>"NAME" = 'Parks Victoria'</Filter>
+          <AreaSymbolization2D>
+            <Fill>
+              <FillPattern>Solid</FillPattern>
+              <ForegroundColor>FF776909</ForegroundColor>
+              <BackgroundColor>ffffffff</BackgroundColor>
+            </Fill>
+          </AreaSymbolization2D>
+        </AreaRule>
+        <AreaRule>
+          <LegendLabel>Port Roads</LegendLabel>
+          <Filter>"NAME" = 'Port Roads'</Filter>
+          <AreaSymbolization2D>
+            <Fill>
+              <FillPattern>Solid</FillPattern>
+              <ForegroundColor>FF00D9D9</ForegroundColor>
+              <BackgroundColor>ffffffff</BackgroundColor>
+            </Fill>
+          </AreaSymbolization2D>
+        </AreaRule>
+        <AreaRule>
+          <LegendLabel>Private</LegendLabel>
+          <Filter>"NAME" = 'Private'</Filter>
+          <AreaSymbolization2D>
+            <Fill>
+              <FillPattern>Solid</FillPattern>
+              <ForegroundColor>FFFF0000</ForegroundColor>
+              <BackgroundColor>ffffffff</BackgroundColor>
+            </Fill>
+          </AreaSymbolization2D>
+        </AreaRule>
+        <AreaRule>
+          <LegendLabel>Rail/Tram</LegendLabel>
+          <Filter>"NAME" = 'Rail/Tram'</Filter>
+          <AreaSymbolization2D>
+            <Fill>
+              <FillPattern>Solid</FillPattern>
+              <ForegroundColor>FF8B0000</ForegroundColor>
+              <BackgroundColor>ffffffff</BackgroundColor>
+            </Fill>
+          </AreaSymbolization2D>
+        </AreaRule>
+        <AreaRule>
+          <LegendLabel>River</LegendLabel>
+          <Filter>"NAME" = 'River'</Filter>
+          <AreaSymbolization2D>
+            <Fill>
+              <FillPattern>Solid</FillPattern>
+              <ForegroundColor>FF0346B6</ForegroundColor>
+              <BackgroundColor>ffffffff</BackgroundColor>
+            </Fill>
+          </AreaSymbolization2D>
+        </AreaRule>
+        <AreaRule>
+          <LegendLabel>Road Safety Act</LegendLabel>
+          <Filter>"NAME" = 'Road Safety Act'</Filter>
+          <AreaSymbolization2D>
+            <Fill>
+              <FillPattern>Solid</FillPattern>
+              <ForegroundColor>FFFFFF00</ForegroundColor>
+              <BackgroundColor>ffffffff</BackgroundColor>
+            </Fill>
+          </AreaSymbolization2D>
+        </AreaRule>
+      </AreaTypeStyle>
+    </VectorScaleRange>
+  </VectorLayerDefinition>
+</LayerDefinition>

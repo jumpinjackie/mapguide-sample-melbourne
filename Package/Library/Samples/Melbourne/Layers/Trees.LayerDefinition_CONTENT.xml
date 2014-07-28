@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LayerDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" version="1.0.0" xsi:noNamespaceSchemaLocation="LayerDefinition-1.0.0.xsd">
+  <VectorLayerDefinition>
+    <ResourceId>Library://Samples/Melbourne/Data/Melbourne_s_Urban_Forest_Map.FeatureSource</ResourceId>
+    <FeatureName>Default:melbourne_s_urban_forest_map</FeatureName>
+    <FeatureNameType>FeatureClass</FeatureNameType>
+    <PropertyMapping>
+      <Name>OGC_FID</Name>
+      <Value>OGC_FID</Value>
+    </PropertyMapping>
+    <PropertyMapping>
+      <Name>com id</Name>
+      <Value>com id</Value>
+    </PropertyMapping>
+    <PropertyMapping>
+      <Name>common name</Name>
+      <Value>common name</Value>
+    </PropertyMapping>
+    <PropertyMapping>
+      <Name>scientific name</Name>
+      <Value>scientific name</Value>
+    </PropertyMapping>
+    <PropertyMapping>
+      <Name>genus</Name>
+      <Value>genus</Value>
+    </PropertyMapping>
+    <PropertyMapping>
+      <Name>family</Name>
+      <Value>family</Value>
+    </PropertyMapping>
+    <PropertyMapping>
+      <Name>dbh (cm)</Name>
+      <Value>dbh (cm)</Value>
+    </PropertyMapping>
+    <PropertyMapping>
+      <Name>year planted</Name>
+      <Value>year planted</Value>
+    </PropertyMapping>
+    <PropertyMapping>
+      <Name>date planted</Name>
+      <Value>date planted</Value>
+    </PropertyMapping>
+    <PropertyMapping>
+      <Name>age description</Name>
+      <Value>age description</Value>
+    </PropertyMapping>
+    <PropertyMapping>
+      <Name>useful life expectency</Name>
+      <Value>useful life expectency</Value>
+    </PropertyMapping>
+    <PropertyMapping>
+      <Name>precinct</Name>
+      <Value>precinct</Value>
+    </PropertyMapping>
+    <PropertyMapping>
+      <Name>located in</Name>
+      <Value>located in</Value>
+    </PropertyMapping>
+    <PropertyMapping>
+      <Name>location 1</Name>
+      <Value>location 1</Value>
+    </PropertyMapping>
+    <PropertyMapping>
+      <Name>latitude</Name>
+      <Value>latitude</Value>
+    </PropertyMapping>
+    <PropertyMapping>
+      <Name>longitude</Name>
+      <Value>longitude</Value>
+    </PropertyMapping>
+    <Geometry>GEOMETRY</Geometry>
+    <VectorScaleRange>
+      <PointTypeStyle>
+        <DisplayAsText>false</DisplayAsText>
+        <AllowOverpost>false</AllowOverpost>
+        <PointRule>
+          <LegendLabel/>
+          <PointSymbolization2D>
+            <Mark>
+              <Unit>Points</Unit>
+              <SizeContext>DeviceUnits</SizeContext>
+              <SizeX>5</SizeX>
+              <SizeY>5</SizeY>
+              <Rotation>0</Rotation>
+              <Shape>Circle</Shape>
+              <Fill>
+                <FillPattern>Solid</FillPattern>
+                <ForegroundColor>FF008000</ForegroundColor>
+                <BackgroundColor>ffffffff</BackgroundColor>
+              </Fill>
+            </Mark>
+          </PointSymbolization2D>
+        </PointRule>
+      </PointTypeStyle>
+    </VectorScaleRange>
+  </VectorLayerDefinition>
+</LayerDefinition>
