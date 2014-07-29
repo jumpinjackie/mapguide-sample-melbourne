@@ -5,47 +5,8 @@
     <Watermarks/>
     <FeatureName>Default:melbourne_bike_share_locations_map</FeatureName>
     <FeatureNameType>FeatureClass</FeatureNameType>
-    <PropertyMapping>
-      <Name>OGC_FID</Name>
-      <Value>OGC_FID</Value>
-    </PropertyMapping>
-    <PropertyMapping>
-      <Name>id</Name>
-      <Value>id</Value>
-    </PropertyMapping>
-    <PropertyMapping>
-      <Name>name</Name>
-      <Value>name</Value>
-    </PropertyMapping>
-    <PropertyMapping>
-      <Name>latitude</Name>
-      <Value>latitude</Value>
-    </PropertyMapping>
-    <PropertyMapping>
-      <Name>longitude</Name>
-      <Value>longitude</Value>
-    </PropertyMapping>
-    <PropertyMapping>
-      <Name>nbbikes</Name>
-      <Value>nbbikes</Value>
-    </PropertyMapping>
-    <PropertyMapping>
-      <Name>nbemptydoc</Name>
-      <Value>nbemptydoc</Value>
-    </PropertyMapping>
-    <PropertyMapping>
-      <Name>maplabel</Name>
-      <Value>maplabel</Value>
-    </PropertyMapping>
-    <PropertyMapping>
-      <Name>dateserver</Name>
-      <Value>dateserver</Value>
-    </PropertyMapping>
-    <PropertyMapping>
-      <Name>coordinates</Name>
-      <Value>coordinates</Value>
-    </PropertyMapping>
     <Geometry>GEOMETRY</Geometry>
+    <ToolTip>Concat('Bike Share Location\n', name, '\nNumber of bikes: ', nbbikes)</ToolTip>
     <VectorScaleRange>
       <CompositeTypeStyle>
         <CompositeRule>

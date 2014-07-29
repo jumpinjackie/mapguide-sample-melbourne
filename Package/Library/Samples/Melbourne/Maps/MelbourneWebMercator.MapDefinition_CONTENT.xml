@@ -10,14 +10,24 @@
   </Extents>
   <BackgroundColor>ffffffff</BackgroundColor>
   <MapLayer>
+    <Name>Overland Flow Routes</Name>
+    <ResourceId>Library://Samples/Melbourne/Layers/Overland Flow Routes.LayerDefinition</ResourceId>
+    <Selectable>false</Selectable>
+    <ShowInLegend>true</ShowInLegend>
+    <LegendLabel>Overland Flow Routes</LegendLabel>
+    <ExpandInLegend>false</ExpandInLegend>
+    <Visible>false</Visible>
+    <Group>Environment</Group>
+  </MapLayer>
+  <MapLayer>
     <Name>Suburbs</Name>
     <ResourceId>Library://Samples/Melbourne/Layers/Census_of_Land_Use_and_Employment_(CLUE)_Suburb.LayerDefinition</ResourceId>
     <Selectable>false</Selectable>
     <ShowInLegend>true</ShowInLegend>
     <LegendLabel>Suburbs</LegendLabel>
-    <ExpandInLegend>true</ExpandInLegend>
+    <ExpandInLegend>false</ExpandInLegend>
     <Visible>true</Visible>
-    <Group/>
+    <Group>Census of Land Use and Employment (CLUE)</Group>
   </MapLayer>
   <MapLayer>
     <Name>Building Accessibility Locations</Name>
@@ -25,19 +35,19 @@
     <Selectable>true</Selectable>
     <ShowInLegend>true</ShowInLegend>
     <LegendLabel>Building Accessibility Locations</LegendLabel>
-    <ExpandInLegend>true</ExpandInLegend>
+    <ExpandInLegend>false</ExpandInLegend>
     <Visible>false</Visible>
-    <Group/>
+    <Group>Planning</Group>
   </MapLayer>
   <MapLayer>
     <Name>Bike Share Locations</Name>
     <ResourceId>Library://Samples/Melbourne/Layers/Bike Share Locations.LayerDefinition</ResourceId>
-    <Selectable>true</Selectable>
+    <Selectable>false</Selectable>
     <ShowInLegend>true</ShowInLegend>
     <LegendLabel>Bike Share Locations</LegendLabel>
-    <ExpandInLegend>true</ExpandInLegend>
+    <ExpandInLegend>false</ExpandInLegend>
     <Visible>false</Visible>
-    <Group/>
+    <Group>Recreation</Group>
   </MapLayer>
   <MapLayer>
     <Name>Trees</Name>
@@ -45,39 +55,39 @@
     <Selectable>true</Selectable>
     <ShowInLegend>true</ShowInLegend>
     <LegendLabel>Trees</LegendLabel>
-    <ExpandInLegend>true</ExpandInLegend>
+    <ExpandInLegend>false</ExpandInLegend>
     <Visible>false</Visible>
-    <Group/>
+    <Group>Environment</Group>
   </MapLayer>
   <MapLayer>
     <Name>City Circle Stops</Name>
     <ResourceId>Library://Samples/Melbourne/Layers/City Circle Stops.LayerDefinition</ResourceId>
-    <Selectable>true</Selectable>
+    <Selectable>false</Selectable>
     <ShowInLegend>true</ShowInLegend>
     <LegendLabel>City Circle Stops</LegendLabel>
-    <ExpandInLegend>true</ExpandInLegend>
+    <ExpandInLegend>false</ExpandInLegend>
     <Visible>false</Visible>
-    <Group/>
+    <Group>Transport</Group>
   </MapLayer>
   <MapLayer>
     <Name>SyringeBin</Name>
     <ResourceId>Library://Samples/Melbourne/Layers/SyringeBin.LayerDefinition</ResourceId>
-    <Selectable>true</Selectable>
+    <Selectable>false</Selectable>
     <ShowInLegend>true</ShowInLegend>
     <LegendLabel>Syringe Bins</LegendLabel>
-    <ExpandInLegend>true</ExpandInLegend>
+    <ExpandInLegend>false</ExpandInLegend>
     <Visible>false</Visible>
-    <Group/>
+    <Group>Community</Group>
   </MapLayer>
   <MapLayer>
     <Name>City Circle Route</Name>
     <ResourceId>Library://Samples/Melbourne/Layers/City Circle Route.LayerDefinition</ResourceId>
-    <Selectable>true</Selectable>
+    <Selectable>false</Selectable>
     <ShowInLegend>true</ShowInLegend>
     <LegendLabel>City Circle Route</LegendLabel>
-    <ExpandInLegend>true</ExpandInLegend>
+    <ExpandInLegend>false</ExpandInLegend>
     <Visible>true</Visible>
-    <Group/>
+    <Group>Transport</Group>
   </MapLayer>
   <MapLayer>
     <Name>Major Features</Name>
@@ -85,39 +95,39 @@
     <Selectable>false</Selectable>
     <ShowInLegend>true</ShowInLegend>
     <LegendLabel>Major Features</LegendLabel>
-    <ExpandInLegend>true</ExpandInLegend>
+    <ExpandInLegend>false</ExpandInLegend>
     <Visible>true</Visible>
     <Group/>
   </MapLayer>
   <MapLayer>
     <Name>CLUE - Number of Establishments per Block</Name>
     <ResourceId>Library://Samples/Melbourne/Layers/CLUE - Number of Establishments per Block.LayerDefinition</ResourceId>
-    <Selectable>true</Selectable>
+    <Selectable>false</Selectable>
     <ShowInLegend>true</ShowInLegend>
-    <LegendLabel>CLUE - Number of Establishments per Block</LegendLabel>
-    <ExpandInLegend>true</ExpandInLegend>
+    <LegendLabel>Number of Establishments per Block</LegendLabel>
+    <ExpandInLegend>false</ExpandInLegend>
     <Visible>false</Visible>
-    <Group/>
+    <Group>Census of Land Use and Employment (CLUE)</Group>
   </MapLayer>
   <MapLayer>
     <Name>BuildingFootprints</Name>
     <ResourceId>Library://Samples/Melbourne/Layers/BuildingFootprints.LayerDefinition</ResourceId>
     <Selectable>true</Selectable>
     <ShowInLegend>true</ShowInLegend>
-    <LegendLabel>BuildingFootprints</LegendLabel>
-    <ExpandInLegend>true</ExpandInLegend>
+    <LegendLabel>Building Footprints</LegendLabel>
+    <ExpandInLegend>false</ExpandInLegend>
     <Visible>true</Visible>
-    <Group/>
+    <Group>Planning</Group>
   </MapLayer>
   <MapLayer>
     <Name>FootpathGrades</Name>
     <ResourceId>Library://Samples/Melbourne/Layers/FootpathGrades.LayerDefinition</ResourceId>
     <Selectable>false</Selectable>
     <ShowInLegend>true</ShowInLegend>
-    <LegendLabel>FootpathGrades</LegendLabel>
-    <ExpandInLegend>true</ExpandInLegend>
+    <LegendLabel>Footpath Grades</LegendLabel>
+    <ExpandInLegend>false</ExpandInLegend>
     <Visible>true</Visible>
-    <Group/>
+    <Group>Planning</Group>
   </MapLayer>
   <MapLayer>
     <Name>Road Corridor</Name>
@@ -125,9 +135,9 @@
     <Selectable>false</Selectable>
     <ShowInLegend>true</ShowInLegend>
     <LegendLabel>Road Corridor</LegendLabel>
-    <ExpandInLegend>true</ExpandInLegend>
+    <ExpandInLegend>false</ExpandInLegend>
     <Visible>true</Visible>
-    <Group/>
+    <Group>Planning</Group>
   </MapLayer>
   <MapLayer>
     <Name>Property Boundaries</Name>
@@ -135,9 +145,9 @@
     <Selectable>false</Selectable>
     <ShowInLegend>true</ShowInLegend>
     <LegendLabel>Property Boundaries</LegendLabel>
-    <ExpandInLegend>true</ExpandInLegend>
+    <ExpandInLegend>false</ExpandInLegend>
     <Visible>true</Visible>
-    <Group/>
+    <Group>Planning</Group>
   </MapLayer>
   <MapLayer>
     <Name>Municipal Boundary</Name>
@@ -145,9 +155,57 @@
     <Selectable>false</Selectable>
     <ShowInLegend>true</ShowInLegend>
     <LegendLabel>Municipal Boundary</LegendLabel>
-    <ExpandInLegend>true</ExpandInLegend>
+    <ExpandInLegend>false</ExpandInLegend>
     <Visible>true</Visible>
-    <Group/>
+    <Group>Planning</Group>
   </MapLayer>
+  <MapLayerGroup>
+    <Name>Planning</Name>
+    <Visible>true</Visible>
+    <ShowInLegend>true</ShowInLegend>
+    <ExpandInLegend>true</ExpandInLegend>
+    <LegendLabel>Planning</LegendLabel>
+    <Group/>
+  </MapLayerGroup>
+  <MapLayerGroup>
+    <Name>Transport</Name>
+    <Visible>true</Visible>
+    <ShowInLegend>true</ShowInLegend>
+    <ExpandInLegend>true</ExpandInLegend>
+    <LegendLabel>Transport</LegendLabel>
+    <Group/>
+  </MapLayerGroup>
+  <MapLayerGroup>
+    <Name>Community</Name>
+    <Visible>true</Visible>
+    <ShowInLegend>true</ShowInLegend>
+    <ExpandInLegend>true</ExpandInLegend>
+    <LegendLabel>Community</LegendLabel>
+    <Group/>
+  </MapLayerGroup>
+  <MapLayerGroup>
+    <Name>Environment</Name>
+    <Visible>true</Visible>
+    <ShowInLegend>true</ShowInLegend>
+    <ExpandInLegend>true</ExpandInLegend>
+    <LegendLabel>Environment</LegendLabel>
+    <Group/>
+  </MapLayerGroup>
+  <MapLayerGroup>
+    <Name>Recreation</Name>
+    <Visible>true</Visible>
+    <ShowInLegend>true</ShowInLegend>
+    <ExpandInLegend>true</ExpandInLegend>
+    <LegendLabel>Recreation</LegendLabel>
+    <Group/>
+  </MapLayerGroup>
+  <MapLayerGroup>
+    <Name>Census of Land Use and Employment (CLUE)</Name>
+    <Visible>true</Visible>
+    <ShowInLegend>true</ShowInLegend>
+    <ExpandInLegend>true</ExpandInLegend>
+    <LegendLabel>Census of Land Use and Employment (CLUE)</LegendLabel>
+    <Group/>
+  </MapLayerGroup>
   <Watermarks/>
 </MapDefinition>

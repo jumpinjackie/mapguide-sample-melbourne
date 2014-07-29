@@ -4,42 +4,6 @@
     <ResourceId>Library://Samples/Melbourne/Data/Major Features.FeatureSource</ResourceId>
     <FeatureName>Default:Major Features</FeatureName>
     <FeatureNameType>FeatureClass</FeatureNameType>
-    <PropertyMapping>
-      <Name>FeatId</Name>
-      <Value>FeatId</Value>
-    </PropertyMapping>
-    <PropertyMapping>
-      <Name>MCCID_GIS</Name>
-      <Value>MCCID_GIS</Value>
-    </PropertyMapping>
-    <PropertyMapping>
-      <Name>MCCID_INT</Name>
-      <Value>MCCID_INT</Value>
-    </PropertyMapping>
-    <PropertyMapping>
-      <Name>MCCID_STR</Name>
-      <Value>MCCID_STR</Value>
-    </PropertyMapping>
-    <PropertyMapping>
-      <Name>NAME</Name>
-      <Value>NAME</Value>
-    </PropertyMapping>
-    <PropertyMapping>
-      <Name>MAPLABEL</Name>
-      <Value>MAPLABEL</Value>
-    </PropertyMapping>
-    <PropertyMapping>
-      <Name>XDATE</Name>
-      <Value>XDATE</Value>
-    </PropertyMapping>
-    <PropertyMapping>
-      <Name>XORG</Name>
-      <Value>XORG</Value>
-    </PropertyMapping>
-    <PropertyMapping>
-      <Name>XSOURCE</Name>
-      <Value>XSOURCE</Value>
-    </PropertyMapping>
     <Geometry>Geometry</Geometry>
     <ToolTip>NAME</ToolTip>
     <VectorScaleRange>
@@ -62,7 +26,7 @@
           <AreaSymbolization2D>
             <Fill>
               <FillPattern>Solid</FillPattern>
-              <ForegroundColor>FFFF00FF</ForegroundColor>
+              <ForegroundColor>FF8B008B</ForegroundColor>
               <BackgroundColor>ffffffff</BackgroundColor>
             </Fill>
             <Stroke>

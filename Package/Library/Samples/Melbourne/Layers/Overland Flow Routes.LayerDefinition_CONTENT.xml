@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LayerDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" version="2.4.0" xsi:noNamespaceSchemaLocation="LayerDefinition-2.4.0.xsd">
+  <VectorLayerDefinition>
+    <ResourceId>Library://Samples/Melbourne/Data/Overland Flow Routes.FeatureSource</ResourceId>
+    <Watermarks/>
+    <FeatureName>Default:Overland Flow Routes</FeatureName>
+    <FeatureNameType>FeatureClass</FeatureNameType>
+    <PropertyMapping>
+      <Name>FeatId</Name>
+      <Value>FeatId</Value>
+    </PropertyMapping>
+    <PropertyMapping>
+      <Name>ARCID</Name>
+      <Value>ARCID</Value>
+    </PropertyMapping>
+    <PropertyMapping>
+      <Name>GRID_CODE</Name>
+      <Value>GRID_CODE</Value>
+    </PropertyMapping>
+    <PropertyMapping>
+      <Name>FROM_NODE</Name>
+      <Value>FROM_NODE</Value>
+    </PropertyMapping>
+    <PropertyMapping>
+      <Name>TO_NODE</Name>
+      <Value>TO_NODE</Value>
+    </PropertyMapping>
+    <PropertyMapping>
+      <Name>Source</Name>
+      <Value>Source</Value>
+    </PropertyMapping>
+    <Geometry>Geometry</Geometry>
+    <VectorScaleRange>
+      <CompositeTypeStyle>
+        <CompositeRule>
+          <LegendLabel/>
+          <CompositeSymbolization>
+            <SymbolInstance>
+              <SimpleSymbolDefinition>
+                <Name>Solid Line</Name>
+                <Description>Default Line Symbol</Description>
+                <Graphics>
+                  <Path>
+                    <Geometry>M 0.0,0.0 L 1.0,0.0</Geometry>
+                    <LineColor>%LINECOLOR%</LineColor>
+                    <LineWeight>%LINEWEIGHT%</LineWeight>
+                    <LineWeightScalable>true</LineWeightScalable>
+                  </Path>
+                </Graphics>
+                <LineUsage>
+                  <Repeat>1.0</Repeat>
+                </LineUsage>
+                <ParameterDefinition>
+                  <Parameter>
+                    <Identifier>LINECOLOR</Identifier>
+                    <DefaultValue>0xff0000ff</DefaultValue>
+                    <DisplayName>Line &amp;amp;Color</DisplayName>
+                    <Description>Line Color</Description>
+                    <DataType>LineColor</DataType>
+                  </Parameter>
+                  <Parameter>
+                    <Identifier>LINEWEIGHT</Identifier>
+                    <DefaultValue>0.0</DefaultValue>
+                    <DisplayName>Line &amp;amp; Thickness</DisplayName>
+                    <Description>Line Thickness</Description>
+                    <DataType>LineWeight</DataType>
+                  </Parameter>
+                </ParameterDefinition>
+              </SimpleSymbolDefinition>
+              <ParameterOverrides>
+                <Override>
+                  <SymbolName>Solid Line</SymbolName>
+                  <ParameterIdentifier>LINECOLOR</ParameterIdentifier>
+                  <ParameterValue>0xff0000ff</ParameterValue>
+                </Override>
+                <Override>
+                  <SymbolName>Solid Line</SymbolName>
+                  <ParameterIdentifier>LINEWEIGHT</ParameterIdentifier>
+                  <ParameterValue>0.0</ParameterValue>
+                </Override>
+              </ParameterOverrides>
+              <UsageContext>Line</UsageContext>
+              <GeometryContext>LineString</GeometryContext>
+            </SymbolInstance>
+          </CompositeSymbolization>
+        </CompositeRule>
+      </CompositeTypeStyle>
+    </VectorScaleRange>
+  </VectorLayerDefinition>
+</LayerDefinition>

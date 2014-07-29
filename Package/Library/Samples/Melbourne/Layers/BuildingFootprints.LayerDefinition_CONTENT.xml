@@ -6,48 +6,20 @@
     <FeatureName>Default:BuildingFootprints</FeatureName>
     <FeatureNameType>FeatureClass</FeatureNameType>
     <PropertyMapping>
-      <Name>FeatId</Name>
-      <Value>FeatId</Value>
-    </PropertyMapping>
-    <PropertyMapping>
-      <Name>EASTING</Name>
-      <Value>EASTING</Value>
-    </PropertyMapping>
-    <PropertyMapping>
-      <Name>NORTHING</Name>
-      <Value>NORTHING</Value>
-    </PropertyMapping>
-    <PropertyMapping>
-      <Name>MCCID_INT</Name>
-      <Value>MCCID_INT</Value>
-    </PropertyMapping>
-    <PropertyMapping>
-      <Name>ZMAX</Name>
-      <Value>ZMAX</Value>
-    </PropertyMapping>
-    <PropertyMapping>
-      <Name>ZMIN</Name>
-      <Value>ZMIN</Value>
-    </PropertyMapping>
-    <PropertyMapping>
       <Name>HEIGHT</Name>
-      <Value>HEIGHT</Value>
+      <Value>Height (m)</Value>
     </PropertyMapping>
     <PropertyMapping>
       <Name>BUILD_YEAR</Name>
-      <Value>BUILD_YEAR</Value>
+      <Value>Year Built</Value>
     </PropertyMapping>
     <PropertyMapping>
       <Name>FLOORS</Name>
-      <Value>FLOORS</Value>
+      <Value>Number of Floors</Value>
     </PropertyMapping>
     <PropertyMapping>
       <Name>FMTADDRESS</Name>
-      <Value>FMTADDRESS</Value>
-    </PropertyMapping>
-    <PropertyMapping>
-      <Name>MCCID_STR</Name>
-      <Value>MCCID_STR</Value>
+      <Value>Address</Value>
     </PropertyMapping>
     <Geometry>Geometry</Geometry>
     <ToolTip>Concat('Building\nAddress: ', FMTADDRESS, '\nFloors: ', FLOORS)</ToolTip>
