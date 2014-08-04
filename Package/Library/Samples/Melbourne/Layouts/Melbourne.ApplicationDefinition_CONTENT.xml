@@ -219,18 +219,6 @@
         <Function>Widget</Function>
         <Widget>BasemapSwitcher</Widget>
       </Item>
-      <Item xsi:type="WidgetItemType">
-        <Function>Widget</Function>
-        <Widget>GoogleStreetViewer</Widget>
-      </Item>
-      <Item xsi:type="WidgetItemType">
-        <Function>Widget</Function>
-        <Widget>Geolocation</Widget>
-      </Item>
-      <Item xsi:type="WidgetItemType">
-        <Function>Widget</Function>
-        <Widget>ViewAsKml</Widget>
-      </Item>
       <Item xsi:type="FlyoutItemType">
         <Function>Flyout</Function>
         <Label>View</Label>
@@ -250,6 +238,22 @@
           <Function>Widget</Function>
           <Widget>showSelectionPanel</Widget>
         </Item>
+      </Item>
+      <Item xsi:type="WidgetItemType">
+        <Function>Widget</Function>
+        <Widget>GoogleStreetViewer</Widget>
+      </Item>
+      <Item xsi:type="WidgetItemType">
+        <Function>Widget</Function>
+        <Widget>Geolocation</Widget>
+      </Item>
+      <Item xsi:type="WidgetItemType">
+        <Function>Widget</Function>
+        <Widget>ViewAsKml</Widget>
+      </Item>
+      <Item xsi:type="WidgetItemType">
+        <Function>Widget</Function>
+        <Widget>buildingSearch</Widget>
       </Item>
     </Container>
     <Container xsi:type="UiItemContainerType">
@@ -1343,6 +1347,39 @@
       <ImageClass>invoke-script</ImageClass>
       <Label>Export to KML</Label>
       <Tooltip>Export this map to KML</Tooltip>
+      <StatusText/>
+      <Disabled>false</Disabled>
+    </Widget>
+    <Widget xsi:type="UiWidgetType">
+      <Name>buildingSearch</Name>
+      <Type>Search</Type>
+      <Location/>
+      <Extension>
+        <Target>TaskPane</Target>
+        <Prompt>Enter building name</Prompt>
+        <Layer>BuildingFootprints</Layer>
+        <Filter>FMTADDRESS LIKE '%$USER_VARIABLE%'</Filter>
+        <MatchLimit>100</MatchLimit>
+        <ResultColumns>
+          <Column>
+            <Name>Name/Address</Name>
+            <Property>FMTADDRESS</Property>
+          </Column>
+          <Column>
+            <Name>Floors</Name>
+            <Property>FLOORS</Property>
+          </Column>
+          <Column>
+            <Name>Year Built</Name>
+            <Property>BUILD_YEAR</Property>
+          </Column>
+        </ResultColumns>
+        <Title>Building Search</Title>
+      </Extension>
+      <ImageUrl>images/icons.png</ImageUrl>
+      <ImageClass>search</ImageClass>
+      <Label>Building Search</Label>
+      <Tooltip>Click to carry out a building search on the map data</Tooltip>
       <StatusText/>
       <Disabled>false</Disabled>
     </Widget>
