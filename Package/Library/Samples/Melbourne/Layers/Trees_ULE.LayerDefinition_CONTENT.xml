@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LayerDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" version="1.0.0" xsi:noNamespaceSchemaLocation="LayerDefinition-1.0.0.xsd">
+  <VectorLayerDefinition>
+    <ResourceId>Library://Samples/Melbourne/Data/Melbourne_s_Urban_Forest_Map.FeatureSource</ResourceId>
+    <FeatureName>Default:melbourne_s_urban_forest_map</FeatureName>
+    <FeatureNameType>FeatureClass</FeatureNameType>
+    <PropertyMapping>
+      <Name>com id</Name>
+      <Value>com id</Value>
+    </PropertyMapping>
+    <PropertyMapping>
+      <Name>common name</Name>
+      <Value>common name</Value>
+    </PropertyMapping>
+    <PropertyMapping>
+      <Name>scientific name</Name>
+      <Value>scientific name</Value>
+    </PropertyMapping>
+    <PropertyMapping>
+      <Name>genus</Name>
+      <Value>genus</Value>
+    </PropertyMapping>
+    <PropertyMapping>
+      <Name>family</Name>
+      <Value>family</Value>
+    </PropertyMapping>
+    <PropertyMapping>
+      <Name>dbh (cm)</Name>
+      <Value>dbh (cm)</Value>
+    </PropertyMapping>
+    <PropertyMapping>
+      <Name>year planted</Name>
+      <Value>year planted</Value>
+    </PropertyMapping>
+    <PropertyMapping>
+      <Name>date planted</Name>
+      <Value>date planted</Value>
+    </PropertyMapping>
+    <PropertyMapping>
+      <Name>age description</Name>
+      <Value>age description</Value>
+    </PropertyMapping>
+    <PropertyMapping>
+      <Name>useful life expectency</Name>
+      <Value>useful life expectency</Value>
+    </PropertyMapping>
+    <PropertyMapping>
+      <Name>precinct</Name>
+      <Value>precinct</Value>
+    </PropertyMapping>
+    <PropertyMapping>
+      <Name>located in</Name>
+      <Value>located in</Value>
+    </PropertyMapping>
+    <PropertyMapping>
+      <Name>location 1</Name>
+      <Value>location 1</Value>
+    </PropertyMapping>
+    <PropertyMapping>
+      <Name>latitude</Name>
+      <Value>latitude</Value>
+    </PropertyMapping>
+    <PropertyMapping>
+      <Name>longitude</Name>
+      <Value>longitude</Value>
+    </PropertyMapping>
+    <Geometry>GEOMETRY</Geometry>
+    <VectorScaleRange>
+      <PointTypeStyle>
+        <DisplayAsText>false</DisplayAsText>
+        <AllowOverpost>false</AllowOverpost>
+        <PointRule>
+          <LegendLabel>&lt;1 year</LegendLabel>
+          <Filter>"useful life expectency" = '&lt;1 year'</Filter>
+          <PointSymbolization2D>
+            <Mark>
+              <Unit>Points</Unit>
+              <SizeContext>DeviceUnits</SizeContext>
+              <SizeX>5</SizeX>
+              <SizeY>5</SizeY>
+              <Rotation>0</Rotation>
+              <Shape>Circle</Shape>
+              <Fill>
+                <FillPattern>Solid</FillPattern>
+                <ForegroundColor>ffd73027</ForegroundColor>
+                <BackgroundColor>ffffffff</BackgroundColor>
+              </Fill>
+              <Edge>
+                <LineStyle>Solid</LineStyle>
+                <Thickness>1</Thickness>
+                <Color>ffd73027</Color>
+                <Unit>Points</Unit>
+              </Edge>
+            </Mark>
+          </PointSymbolization2D>
+        </PointRule>
+        <PointRule>
+          <LegendLabel>11-20 years</LegendLabel>
+          <Filter>"useful life expectency" = '11-20 years'</Filter>
+          <PointSymbolization2D>
+            <Mark>
+              <Unit>Points</Unit>
+              <SizeContext>DeviceUnits</SizeContext>
+              <SizeX>5</SizeX>
+              <SizeY>5</SizeY>
+              <Rotation>0</Rotation>
+              <Shape>Circle</Shape>
+              <Fill>
+                <FillPattern>Solid</FillPattern>
+                <ForegroundColor>fff46d43</ForegroundColor>
+                <BackgroundColor>ffffffff</BackgroundColor>
+              </Fill>
+              <Edge>
+                <LineStyle>Solid</LineStyle>
+                <Thickness>1</Thickness>
+                <Color>fff46d43</Color>
+                <Unit>Points</Unit>
+              </Edge>
+            </Mark>
+          </PointSymbolization2D>
+        </PointRule>
+        <PointRule>
+          <LegendLabel>1-5 years</LegendLabel>
+          <Filter>"useful life expectency" = '1-5 years'</Filter>
+          <PointSymbolization2D>
+            <Mark>
+              <Unit>Points</Unit>
+              <SizeContext>DeviceUnits</SizeContext>
+              <SizeX>5</SizeX>
+              <SizeY>5</SizeY>
+              <Rotation>0</Rotation>
+              <Shape>Circle</Shape>
+              <Fill>
+                <FillPattern>Solid</FillPattern>
+                <ForegroundColor>fffdae61</ForegroundColor>
+                <BackgroundColor>ffffffff</BackgroundColor>
+              </Fill>
+              <Edge>
+                <LineStyle>Solid</LineStyle>
+                <Thickness>1</Thickness>
+                <Color>fffdae61</Color>
+                <Unit>Points</Unit>
+              </Edge>
+            </Mark>
+          </PointSymbolization2D>
+        </PointRule>
+        <PointRule>
+          <LegendLabel>1-5 years (&lt;50% canopy)</LegendLabel>
+          <Filter>"useful life expectency" = '1-5 years (&lt;50% canopy)'</Filter>
+          <PointSymbolization2D>
+            <Mark>
+              <Unit>Points</Unit>
+              <SizeContext>DeviceUnits</SizeContext>
+              <SizeX>5</SizeX>
+              <SizeY>5</SizeY>
+              <Rotation>0</Rotation>
+              <Shape>Circle</Shape>
+              <Fill>
+                <FillPattern>Solid</FillPattern>
+                <ForegroundColor>fffee08b</ForegroundColor>
+                <BackgroundColor>ffffffff</BackgroundColor>
+              </Fill>
+              <Edge>
+                <LineStyle>Solid</LineStyle>
+                <Thickness>1</Thickness>
+                <Color>fffee08b</Color>
+                <Unit>Points</Unit>
+              </Edge>
+            </Mark>
+          </PointSymbolization2D>
+        </PointRule>
+        <PointRule>
+          <LegendLabel>1-5 years (>50% canopy)</LegendLabel>
+          <Filter>"useful life expectency" = '1-5 years (>50% canopy)'</Filter>
+          <PointSymbolization2D>
+            <Mark>
+              <Unit>Points</Unit>
+              <SizeContext>DeviceUnits</SizeContext>
+              <SizeX>5</SizeX>
+              <SizeY>5</SizeY>
+              <Rotation>0</Rotation>
+              <Shape>Circle</Shape>
+              <Fill>
+                <FillPattern>Solid</FillPattern>
+                <ForegroundColor>ffffffbf</ForegroundColor>
+                <BackgroundColor>ffffffff</BackgroundColor>
+              </Fill>
+              <Edge>
+                <LineStyle>Solid</LineStyle>
+                <Thickness>1</Thickness>
+                <Color>ffffffbf</Color>
+                <Unit>Points</Unit>
+              </Edge>
+            </Mark>
+          </PointSymbolization2D>
+        </PointRule>
+        <PointRule>
+          <LegendLabel>21-30 years</LegendLabel>
+          <Filter>"useful life expectency" = '21-30 years'</Filter>
+          <PointSymbolization2D>
+            <Mark>
+              <Unit>Points</Unit>
+              <SizeContext>DeviceUnits</SizeContext>
+              <SizeX>5</SizeX>
+              <SizeY>5</SizeY>
+              <Rotation>0</Rotation>
+              <Shape>Circle</Shape>
+              <Fill>
+                <FillPattern>Solid</FillPattern>
+                <ForegroundColor>ffd9ef8b</ForegroundColor>
+                <BackgroundColor>ffffffff</BackgroundColor>
+              </Fill>
+              <Edge>
+                <LineStyle>Solid</LineStyle>
+                <Thickness>1</Thickness>
+                <Color>ffd9ef8b</Color>
+                <Unit>Points</Unit>
+              </Edge>
+            </Mark>
+          </PointSymbolization2D>
+        </PointRule>
+        <PointRule>
+          <LegendLabel>31-60 years</LegendLabel>
+          <Filter>"useful life expectency" = '31-60 years'</Filter>
+          <PointSymbolization2D>
+            <Mark>
+              <Unit>Points</Unit>
+              <SizeContext>DeviceUnits</SizeContext>
+              <SizeX>5</SizeX>
+              <SizeY>5</SizeY>
+              <Rotation>0</Rotation>
+              <Shape>Circle</Shape>
+              <Fill>
+                <FillPattern>Solid</FillPattern>
+                <ForegroundColor>ffa6d96a</ForegroundColor>
+                <BackgroundColor>ffffffff</BackgroundColor>
+              </Fill>
+              <Edge>
+                <LineStyle>Solid</LineStyle>
+                <Thickness>1</Thickness>
+                <Color>ffa6d96a</Color>
+                <Unit>Points</Unit>
+              </Edge>
+            </Mark>
+          </PointSymbolization2D>
+        </PointRule>
+        <PointRule>
+          <LegendLabel>61+ years</LegendLabel>
+          <Filter>"useful life expectency" = '61+ years'</Filter>
+          <PointSymbolization2D>
+            <Mark>
+              <Unit>Points</Unit>
+              <SizeContext>DeviceUnits</SizeContext>
+              <SizeX>5</SizeX>
+              <SizeY>5</SizeY>
+              <Rotation>0</Rotation>
+              <Shape>Circle</Shape>
+              <Fill>
+                <FillPattern>Solid</FillPattern>
+                <ForegroundColor>ff66bd63</ForegroundColor>
+                <BackgroundColor>ffffffff</BackgroundColor>
+              </Fill>
+              <Edge>
+                <LineStyle>Solid</LineStyle>
+                <Thickness>1</Thickness>
+                <Color>ff66bd63</Color>
+                <Unit>Points</Unit>
+              </Edge>
+            </Mark>
+          </PointSymbolization2D>
+        </PointRule>
+        <PointRule>
+          <LegendLabel>6-10 years (&lt;50% canopy)</LegendLabel>
+          <Filter>"useful life expectency" = '6-10 years (&lt;50% canopy)'</Filter>
+          <PointSymbolization2D>
+            <Mark>
+              <Unit>Points</Unit>
+              <SizeContext>DeviceUnits</SizeContext>
+              <SizeX>5</SizeX>
+              <SizeY>5</SizeY>
+              <Rotation>0</Rotation>
+              <Shape>Circle</Shape>
+              <Fill>
+                <FillPattern>Solid</FillPattern>
+                <ForegroundColor>ff1a9850</ForegroundColor>
+                <BackgroundColor>ffffffff</BackgroundColor>
+              </Fill>
+              <Edge>
+                <LineStyle>Solid</LineStyle>
+                <Thickness>1</Thickness>
+                <Color>ff1a9850</Color>
+                <Unit>Points</Unit>
+              </Edge>
+            </Mark>
+          </PointSymbolization2D>
+        </PointRule>
+        <PointRule>
+          <LegendLabel>6-10 years (>50% canopy)</LegendLabel>
+          <Filter>"useful life expectency" = '6-10 years (>50% canopy)'</Filter>
+          <PointSymbolization2D>
+            <Mark>
+              <Unit>Points</Unit>
+              <SizeContext>DeviceUnits</SizeContext>
+              <SizeX>5</SizeX>
+              <SizeY>5</SizeY>
+              <Rotation>0</Rotation>
+              <Shape>Circle</Shape>
+              <Fill>
+                <FillPattern>Solid</FillPattern>
+                <ForegroundColor>ff006837</ForegroundColor>
+                <BackgroundColor>ffffffff</BackgroundColor>
+              </Fill>
+              <Edge>
+                <LineStyle>Solid</LineStyle>
+                <Thickness>1</Thickness>
+                <Color>ff006837</Color>
+                <Unit>Points</Unit>
+              </Edge>
+            </Mark>
+          </PointSymbolization2D>
+        </PointRule>
+      </PointTypeStyle>
+    </VectorScaleRange>
+  </VectorLayerDefinition>
+</LayerDefinition>

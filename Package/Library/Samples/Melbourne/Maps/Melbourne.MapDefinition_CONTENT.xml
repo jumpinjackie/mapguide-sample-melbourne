@@ -10,6 +10,26 @@
   </Extents>
   <BackgroundColor>ffffffff</BackgroundColor>
   <MapLayer>
+    <Name>ULE</Name>
+    <ResourceId>Library://Samples/Melbourne/Layers/Trees_ULE.LayerDefinition</ResourceId>
+    <Selectable>true</Selectable>
+    <ShowInLegend>true</ShowInLegend>
+    <LegendLabel>ULE</LegendLabel>
+    <ExpandInLegend>false</ExpandInLegend>
+    <Visible>false</Visible>
+    <Group>Trees By Criteria</Group>
+  </MapLayer>
+  <MapLayer>
+    <Name>Age</Name>
+    <ResourceId>Library://Samples/Melbourne/Layers/Trees_Age.LayerDefinition</ResourceId>
+    <Selectable>true</Selectable>
+    <ShowInLegend>true</ShowInLegend>
+    <LegendLabel>Age</LegendLabel>
+    <ExpandInLegend>false</ExpandInLegend>
+    <Visible>false</Visible>
+    <Group>Trees By Criteria</Group>
+  </MapLayer>
+  <MapLayer>
     <Name>Overland Flow Routes</Name>
     <ResourceId>Library://Samples/Melbourne/Layers/Overland Flow Routes.LayerDefinition</ResourceId>
     <Selectable>false</Selectable>
@@ -206,6 +226,14 @@
     <ExpandInLegend>true</ExpandInLegend>
     <LegendLabel>Census of Land Use and Employment (CLUE)</LegendLabel>
     <Group/>
+  </MapLayerGroup>
+  <MapLayerGroup>
+    <Name>Trees By Criteria</Name>
+    <Visible>true</Visible>
+    <ShowInLegend>true</ShowInLegend>
+    <ExpandInLegend>true</ExpandInLegend>
+    <LegendLabel>Trees By Criteria</LegendLabel>
+    <Group>Environment</Group>
   </MapLayerGroup>
   <Watermarks/>
 </MapDefinition>

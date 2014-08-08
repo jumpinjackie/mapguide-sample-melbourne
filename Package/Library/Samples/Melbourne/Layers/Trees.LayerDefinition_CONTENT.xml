@@ -5,10 +5,6 @@
     <FeatureName>Default:melbourne_s_urban_forest_map</FeatureName>
     <FeatureNameType>FeatureClass</FeatureNameType>
     <PropertyMapping>
-      <Name>OGC_FID</Name>
-      <Value>OGC_FID</Value>
-    </PropertyMapping>
-    <PropertyMapping>
       <Name>com id</Name>
       <Value>com id</Value>
     </PropertyMapping>

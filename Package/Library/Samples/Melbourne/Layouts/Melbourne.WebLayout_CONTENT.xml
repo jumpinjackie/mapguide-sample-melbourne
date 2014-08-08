@@ -100,7 +100,7 @@
   </ToolBar>
   <InformationPane>
     <Visible>true</Visible>
-    <Width>200</Width>
+    <Width>300</Width>
     <LegendVisible>true</LegendVisible>
     <PropertiesVisible>true</PropertiesVisible>
   </InformationPane>
